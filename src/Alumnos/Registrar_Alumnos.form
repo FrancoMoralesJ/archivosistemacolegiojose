@@ -80,7 +80,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
-                                      <Component id="txtcodigo" min="-2" pref="223" max="-2" attributes="0"/>
+                                      <Component id="txt_Codigo_A" min="-2" pref="223" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
@@ -104,25 +104,25 @@
                                       </Group>
                                       <EmptySpace max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtdni" min="-2" pref="223" max="-2" attributes="0"/>
-                                          <Component id="txtdireccion" min="-2" pref="221" max="-2" attributes="0"/>
-                                          <Component id="txtalumno2" min="-2" pref="222" max="-2" attributes="0"/>
-                                          <Component id="txtalumno" min="-2" pref="223" max="-2" attributes="0"/>
+                                          <Component id="txt_DNI_A" min="-2" pref="223" max="-2" attributes="0"/>
+                                          <Component id="txt_Direccion_A" min="-2" pref="221" max="-2" attributes="0"/>
+                                          <Component id="txt_ApellidoP_A" min="-2" pref="222" max="-2" attributes="0"/>
+                                          <Component id="txt_Alumno_A" min="-2" pref="223" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jButton1" min="-2" pref="77" max="-2" attributes="0"/>
+                                          <Component id="btn_BuscarAlumnos" min="-2" pref="77" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="jComboBox2" max="32767" attributes="0"/>
-                                  <Component id="txt_apellidomaterno" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="txt_fechanacimiento" alignment="1" pref="233" max="32767" attributes="0"/>
-                                  <Component id="txtcelular" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="txt_consulta" max="32767" attributes="0"/>
+                                  <Component id="txt_ApellidoM_A" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="txt_FechaNacimiento_A" alignment="1" pref="233" max="32767" attributes="0"/>
+                                  <Component id="txt_Celular_A" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="txt_Consulta_A" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" attributes="0">
@@ -152,52 +152,52 @@
                                           <Group type="102" alignment="1" attributes="0">
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                                      <Component id="txtcodigo" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                                      <Component id="txt_Codigo_A" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                                                       <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="txtalumno" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                                  <Component id="txt_Alumno_A" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                                                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="1" attributes="0">
-                                              <Component id="txtcelular" min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="txt_Celular_A" min="-2" pref="25" max="-2" attributes="0"/>
                                               <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                              <Component id="txt_fechanacimiento" min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="txt_FechaNacimiento_A" min="-2" pref="25" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="txtalumno2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                                  <Component id="txt_ApellidoP_A" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                                                   <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="txt_apellidomaterno" min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="txt_ApellidoM_A" min="-2" pref="25" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jComboBox2" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="txtdireccion" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="txt_Direccion_A" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                                               <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="txt_consulta" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                                          <Component id="txtdni" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                          <Component id="txt_Consulta_A" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                          <Component id="txt_DNI_A" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                                           <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btn_BuscarAlumnos" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
@@ -215,12 +215,12 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JTextField" name="txtcodigo">
+            <Component class="javax.swing.JTextField" name="txt_Codigo_A">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtcodigoActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Codigo_AActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
@@ -239,12 +239,12 @@
                 <Property name="text" type="java.lang.String" value="CELULAR"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtalumno">
+            <Component class="javax.swing.JTextField" name="txt_Alumno_A">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtalumnoActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Alumno_AActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel6">
@@ -255,15 +255,18 @@
                 <Property name="text" type="java.lang.String" value="DIRECCION"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtdireccion">
+            <Component class="javax.swing.JTextField" name="txt_Direccion_A">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdireccionActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Direccion_AActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtcelular">
+            <Component class="javax.swing.JTextField" name="txt_Celular_A">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
@@ -281,9 +284,15 @@
                 <Property name="text" type="java.lang.String" value="CODIGO:"/>
               </Properties>
             </Component>
-            <Component class="com.toedter.calendar.JDateChooser" name="txt_fechanacimiento">
+            <Component class="com.toedter.calendar.JDateChooser" name="txt_FechaNacimiento_A">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_consulta">
+            <Component class="javax.swing.JTextField" name="txt_Consulta_A">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </Component>
             <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
 
@@ -433,12 +442,24 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txt_padre">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txt_madre">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txt_telefono">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txt_celulares">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel13">
                       <Properties>
@@ -459,6 +480,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txt_celulares1">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel23">
                       <Properties>
@@ -469,6 +493,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="txt_celulares2">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -674,9 +701,9 @@
                 <Property name="text" type="java.lang.String" value="Apellido-M:"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_apellidomaterno">
+            <Component class="javax.swing.JTextField" name="txt_ApellidoM_A">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_apellidomaternoActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_ApellidoM_AActionPerformed"/>
               </Events>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
@@ -690,12 +717,12 @@
                 <Property name="text" type="java.lang.String" value="Apellido-P:"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtalumno2">
+            <Component class="javax.swing.JTextField" name="txt_ApellidoP_A">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtalumno2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_ApellidoP_AActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </Component>
             <Container class="javax.swing.JPanel" name="jPanel1">
@@ -817,15 +844,15 @@
                 <Property name="text" type="java.lang.String" value="DNI:"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtdni">
+            <Component class="javax.swing.JTextField" name="txt_DNI_A">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdniActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_DNI_AActionPerformed"/>
               </Events>
               <AuxValues>
-                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="btn_BuscarAlumnos">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Buscar "/>
               </Properties>

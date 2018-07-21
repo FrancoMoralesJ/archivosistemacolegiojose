@@ -27,14 +27,14 @@ public class Consultar_Reportes_Alumnos extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btn_Imprimir = new javax.swing.JButton();
+        btn_Salir = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        txt_Alumno = new javax.swing.JTextField();
+        txt_AlumnoConsulta = new javax.swing.JTextField();
 
-        jButton1.setText("Imprimir");
+        btn_Imprimir.setText("Imprimir");
 
-        jButton2.setText("Salir");
+        btn_Salir.setText("Salir");
 
         jLabel1.setText("Alumno:");
 
@@ -48,11 +48,11 @@ public class Consultar_Reportes_Alumnos extends javax.swing.JInternalFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(46, 46, 46)
-                        .addComponent(txt_Alumno))
+                        .addComponent(txt_AlumnoConsulta))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btn_Imprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(143, 143, 143))
         );
         layout.setVerticalGroup(
@@ -61,11 +61,11 @@ public class Consultar_Reportes_Alumnos extends javax.swing.JInternalFrame {
                 .addGap(75, 75, 75)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(txt_Alumno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_AlumnoConsulta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_Imprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42))
         );
 
@@ -74,9 +74,9 @@ public class Consultar_Reportes_Alumnos extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton btn_Imprimir;
+    private javax.swing.JButton btn_Salir;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txt_Alumno;
+    public javax.swing.JTextField txt_AlumnoConsulta;
     // End of variables declaration//GEN-END:variables
 }

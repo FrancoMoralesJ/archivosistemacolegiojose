@@ -31,38 +31,38 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
         jPanel4 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        txtdocente = new javax.swing.JTextField();
+        txt_Docente_DOCENTE = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        txtestado = new javax.swing.JComboBox<>();
-        txtespecialidad = new javax.swing.JComboBox<>();
+        txt_Estado_DOCENTE = new javax.swing.JComboBox<>();
+        txt_Especialidad_DOCENTE = new javax.swing.JComboBox<>();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        txtcargo = new javax.swing.JTextField();
-        txtexperiencia = new javax.swing.JTextField();
+        txt_Cargo_DOCENTE = new javax.swing.JTextField();
+        txt_Experiencia_DOCENTE = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        txtnacimiento = new javax.swing.JTextField();
-        txtpago = new javax.swing.JTextField();
+        txt_Nacimiento_DOCENTE = new javax.swing.JTextField();
+        txt_Pago_DOCENTE = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
-        txtingreso = new javax.swing.JTextField();
+        txt_Ingreso_DOCENTE = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        txtobservacion = new javax.swing.JTextField();
+        txt_Observacion_DOCENTE = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
-        consultar = new javax.swing.JTextField();
+        txt_Consultar_DOCENTE = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jtblDatos = new javax.swing.JTable();
-        jlbl_foto = new javax.swing.JLabel();
-        btn_Cargar = new javax.swing.JButton();
-        btn_Buscar = new javax.swing.JButton();
+        jtbl_Datos_DOCENTE = new javax.swing.JTable();
+        jlbl_foto_DOCENTE = new javax.swing.JLabel();
+        btn_Cargar_DOCENTE = new javax.swing.JButton();
+        btn_Buscar_DOCENTE = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        btn_Nuevo = new javax.swing.JButton();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Modificar = new javax.swing.JButton();
-        btn_Eliminar = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
+        btn_Nuevo_DOCENTE = new javax.swing.JButton();
+        btn_Registrar_DOCENTE = new javax.swing.JButton();
+        btn_Modificar_DOCENTE = new javax.swing.JButton();
+        btn_Eliminar_DOCENTE = new javax.swing.JButton();
+        btn_Salir_DOCENTE = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -77,9 +77,9 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
         jLabel2.setFont(new java.awt.Font("Aharoni", 1, 12)); // NOI18N
         jLabel2.setText("DNI :");
 
-        txtdni.addActionListener(new java.awt.event.ActionListener() {
+        txt_Codigo_DOCENTE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtdniActionPerformed(evt);
+                txt_Codigo_DOCENTEActionPerformed(evt);
             }
         });
 
@@ -89,15 +89,15 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
         jLabel4.setFont(new java.awt.Font("Aharoni", 1, 12)); // NOI18N
         jLabel4.setText("DIRECCION :");
 
-        txtdireccion.addActionListener(new java.awt.event.ActionListener() {
+        txt_Direccion_DOCENTE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtdireccionActionPerformed(evt);
+                txt_Direccion_DOCENTEActionPerformed(evt);
             }
         });
 
-        txttelefono.addActionListener(new java.awt.event.ActionListener() {
+        txt_Telefono_DOCENTE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txttelefonoActionPerformed(evt);
+                txt_Telefono_DOCENTEActionPerformed(evt);
             }
         });
 
@@ -107,14 +107,14 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
         jLabel5.setFont(new java.awt.Font("Aharoni", 1, 12)); // NOI18N
         jLabel5.setText("ESTADO CIVIL :");
 
-        txtestado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SOLTERO", "CASADO", "DIVORCIADO" }));
-        txtestado.addActionListener(new java.awt.event.ActionListener() {
+        txt_Estado_DOCENTE.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SOLTERO", "CASADO", "DIVORCIADO" }));
+        txt_Estado_DOCENTE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtestadoActionPerformed(evt);
+                txt_Estado_DOCENTEActionPerformed(evt);
             }
         });
 
-        txtespecialidad.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CIENCIAS", "LETRAS" }));
+        txt_Especialidad_DOCENTE.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CIENCIAS", "LETRAS" }));
 
         jLabel7.setFont(new java.awt.Font("Aharoni", 1, 12)); // NOI18N
         jLabel7.setText("ESPECIALIDAD :");
@@ -143,10 +143,10 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtdni, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtdocente, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txt_Codigo_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Docente_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(txttelefono, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txt_Telefono_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel4Layout.createSequentialGroup()
                             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jLabel7)
@@ -158,21 +158,21 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
                                 .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(txtespecialidad, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(txtestado, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(txt_Especialidad_DOCENTE, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(txt_Estado_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGap(26, 26, 26))
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
                             .addContainerGap()
                             .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(63, 63, 63)
-                            .addComponent(txtdireccion, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Direccion_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 177, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(1, 1, 1))))
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(4, 4, 4)
                         .addComponent(jLabel10)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtnacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txt_Nacimiento_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(9, 9, 9)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -180,16 +180,16 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
                             .addComponent(jLabel8))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtcargo, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtexperiencia, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txt_Cargo_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Experiencia_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel12)
                             .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtpago, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtingreso, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(txt_Pago_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Ingreso_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(113, 113, 113))
         );
         jPanel4Layout.setVerticalGroup(
@@ -200,48 +200,48 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
                         .addContainerGap()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
-                            .addComponent(txtdni, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txt_Codigo_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtdocente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Docente_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel4Layout.createSequentialGroup()
                                 .addGap(1, 1, 1)
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtdireccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Direccion_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel4))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txttelefono, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Telefono_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel6))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel5)
-                            .addComponent(txtestado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txt_Estado_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(14, 14, 14)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel7)
-                            .addComponent(txtespecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txt_Especialidad_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel8)
-                            .addComponent(txtcargo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txt_Cargo_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel9)
-                            .addComponent(txtexperiencia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txt_Experiencia_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(15, 15, 15)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel10)
-                            .addComponent(txtnacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txt_Nacimiento_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel11)
-                            .addComponent(txtpago, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txt_Pago_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtingreso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Ingreso_DOCENTE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel12))))
                 .addGap(0, 6, Short.MAX_VALUE))
         );
@@ -252,15 +252,15 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
         jLabel13.setText("RUTA IMG:");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 379, -1, -1));
 
-        txtobservacion.setEditable(false);
-        getContentPane().add(txtobservacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 378, 547, -1));
+        txt_Observacion_DOCENTE.setEditable(false);
+        getContentPane().add(txt_Observacion_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 378, 547, -1));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("BUSCAR DOCENTE");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 405, -1, -1));
-        getContentPane().add(consultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 405, 231, -1));
+        getContentPane().add(txt_Consultar_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 405, 231, -1));
 
-        jtblDatos.setModel(new javax.swing.table.DefaultTableModel(
+        jtbl_Datos_DOCENTE.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -271,68 +271,76 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane1.setViewportView(jtblDatos);
+        jScrollPane1.setViewportView(jtbl_Datos_DOCENTE);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 456, 811, 171));
 
-        jlbl_foto.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
-        getContentPane().add(jlbl_foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 180, 136, 146));
+        jlbl_foto_DOCENTE.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        getContentPane().add(jlbl_foto_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 180, 136, 146));
 
-        btn_Cargar.setText("Elegir Foto");
-        getContentPane().add(btn_Cargar, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 330, 118, -1));
+        btn_Cargar_DOCENTE.setText("Elegir Foto");
+        getContentPane().add(btn_Cargar_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 330, 118, -1));
 
-        btn_Buscar.setText("Buscar");
-        getContentPane().add(btn_Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(449, 401, 104, 52));
+        btn_Buscar_DOCENTE.setText("Buscar");
+        getContentPane().add(btn_Buscar_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 410, 104, 52));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btn_Nuevo.setText("Nuevo");
-        jPanel1.add(btn_Nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 95, 47));
+        btn_Nuevo_DOCENTE.setText("Nuevo");
+        jPanel1.add(btn_Nuevo_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 95, 47));
 
-        btn_Registrar.setText("Registrar");
-        jPanel1.add(btn_Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, 95, 47));
+        btn_Registrar_DOCENTE.setText("Registrar");
+        btn_Registrar_DOCENTE.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_Registrar_DOCENTEActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_Registrar_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, 95, 47));
 
-        btn_Modificar.setText("Modificar");
-        jPanel1.add(btn_Modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 10, 95, 47));
+        btn_Modificar_DOCENTE.setText("Modificar");
+        jPanel1.add(btn_Modificar_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 10, 95, 47));
 
-        btn_Eliminar.setText("Eliminar");
-        jPanel1.add(btn_Eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 95, 47));
+        btn_Eliminar_DOCENTE.setText("Eliminar");
+        jPanel1.add(btn_Eliminar_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 95, 47));
 
-        btn_Salir.setText("Salir");
-        jPanel1.add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 10, 95, 47));
+        btn_Salir_DOCENTE.setText("Salir");
+        jPanel1.add(btn_Salir_DOCENTE, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 10, 95, 47));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 700, 70));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtdniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtdniActionPerformed
+    private void txt_Codigo_DOCENTEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Codigo_DOCENTEActionPerformed
         //his.dni.transferFocus();
-    }//GEN-LAST:event_txtdniActionPerformed
+    }//GEN-LAST:event_txt_Codigo_DOCENTEActionPerformed
 
-    private void txtdireccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtdireccionActionPerformed
+    private void txt_Direccion_DOCENTEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Direccion_DOCENTEActionPerformed
         //this.direccion.transferFocus();
-    }//GEN-LAST:event_txtdireccionActionPerformed
+    }//GEN-LAST:event_txt_Direccion_DOCENTEActionPerformed
 
-    private void txttelefonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttelefonoActionPerformed
+    private void txt_Telefono_DOCENTEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Telefono_DOCENTEActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txttelefonoActionPerformed
+    }//GEN-LAST:event_txt_Telefono_DOCENTEActionPerformed
 
-    private void txtestadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtestadoActionPerformed
+    private void txt_Estado_DOCENTEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Estado_DOCENTEActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtestadoActionPerformed
+    }//GEN-LAST:event_txt_Estado_DOCENTEActionPerformed
+
+    private void btn_Registrar_DOCENTEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Registrar_DOCENTEActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_Registrar_DOCENTEActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Buscar;
-    private javax.swing.JButton btn_Cargar;
-    private javax.swing.JButton btn_Eliminar;
-    private javax.swing.JButton btn_Modificar;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
-    private javax.swing.JTextField consultar;
+    public javax.swing.JButton btn_Buscar_DOCENTE;
+    public javax.swing.JButton btn_Cargar_DOCENTE;
+    public javax.swing.JButton btn_Eliminar_DOCENTE;
+    public javax.swing.JButton btn_Modificar_DOCENTE;
+    public javax.swing.JButton btn_Nuevo_DOCENTE;
+    public javax.swing.JButton btn_Registrar_DOCENTE;
+    public javax.swing.JButton btn_Salir_DOCENTE;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -350,19 +358,20 @@ public class RegistrarDocentes extends javax.swing.JInternalFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel jlbl_foto;
-    private javax.swing.JTable jtblDatos;
-    private javax.swing.JTextField txtcargo;
-    public static final javax.swing.JTextField txtdireccion = new javax.swing.JTextField();
-    public static final javax.swing.JTextField txtdni = new javax.swing.JTextField();
-    private javax.swing.JTextField txtdocente;
-    private javax.swing.JComboBox<String> txtespecialidad;
-    private javax.swing.JComboBox<String> txtestado;
-    private javax.swing.JTextField txtexperiencia;
-    private javax.swing.JTextField txtingreso;
-    private javax.swing.JTextField txtnacimiento;
-    private javax.swing.JTextField txtobservacion;
-    private javax.swing.JTextField txtpago;
-    public static final javax.swing.JTextField txttelefono = new javax.swing.JTextField();
+    public javax.swing.JLabel jlbl_foto_DOCENTE;
+    private javax.swing.JTable jtbl_Datos_DOCENTE;
+    public javax.swing.JTextField txt_Cargo_DOCENTE;
+    public static final javax.swing.JTextField txt_Codigo_DOCENTE = new javax.swing.JTextField();
+    public javax.swing.JTextField txt_Consultar_DOCENTE;
+    public static final javax.swing.JTextField txt_Direccion_DOCENTE = new javax.swing.JTextField();
+    public javax.swing.JTextField txt_Docente_DOCENTE;
+    public javax.swing.JComboBox<String> txt_Especialidad_DOCENTE;
+    public javax.swing.JComboBox<String> txt_Estado_DOCENTE;
+    public javax.swing.JTextField txt_Experiencia_DOCENTE;
+    public javax.swing.JTextField txt_Ingreso_DOCENTE;
+    public javax.swing.JTextField txt_Nacimiento_DOCENTE;
+    public javax.swing.JTextField txt_Observacion_DOCENTE;
+    public javax.swing.JTextField txt_Pago_DOCENTE;
+    public static final javax.swing.JTextField txt_Telefono_DOCENTE = new javax.swing.JTextField();
     // End of variables declaration//GEN-END:variables
 }

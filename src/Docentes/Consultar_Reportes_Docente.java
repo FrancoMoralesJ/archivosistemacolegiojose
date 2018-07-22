@@ -28,30 +28,30 @@ public class Consultar_Reportes_Docente extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        btn_Imprimir = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
-        txt_id = new javax.swing.JTextField();
+        btn_Imprimir_Docente = new javax.swing.JButton();
+        btn_Salir_Docente = new javax.swing.JButton();
+        txt_Docente = new javax.swing.JTextField();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Docente:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 55, -1, -1));
 
-        btn_Imprimir.setText("Imprimir");
-        getContentPane().add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 144, 81, 39));
+        btn_Imprimir_Docente.setText("Imprimir");
+        getContentPane().add(btn_Imprimir_Docente, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 144, 81, 39));
 
-        btn_Salir.setText("Salir");
-        getContentPane().add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(217, 142, 70, 42));
-        getContentPane().add(txt_id, new org.netbeans.lib.awtextra.AbsoluteConstraints(97, 52, 190, -1));
+        btn_Salir_Docente.setText("Salir");
+        getContentPane().add(btn_Salir_Docente, new org.netbeans.lib.awtextra.AbsoluteConstraints(217, 142, 70, 42));
+        getContentPane().add(txt_Docente, new org.netbeans.lib.awtextra.AbsoluteConstraints(97, 52, 190, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir_Docente;
+    public javax.swing.JButton btn_Salir_Docente;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txt_id;
+    public javax.swing.JTextField txt_Docente;
     // End of variables declaration//GEN-END:variables
 }

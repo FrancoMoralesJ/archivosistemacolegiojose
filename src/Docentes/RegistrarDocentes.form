@@ -62,12 +62,12 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtdni" alignment="0" min="-2" pref="177" max="-2" attributes="0"/>
-                              <Component id="txtdocente" alignment="0" min="-2" pref="177" max="-2" attributes="0"/>
+                              <Component id="txt_Codigo_DOCENTE" alignment="0" min="-2" pref="177" max="-2" attributes="0"/>
+                              <Component id="txt_Docente_DOCENTE" alignment="0" min="-2" pref="177" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="txttelefono" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
+                          <Component id="txt_Telefono_DOCENTE" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -81,8 +81,8 @@
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="txtespecialidad" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtestado" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="txt_Especialidad_DOCENTE" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txt_Estado_DOCENTE" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                           </Group>
@@ -90,7 +90,7 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel4" min="-2" pref="49" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-                              <Component id="txtdireccion" min="-2" pref="177" max="-2" attributes="0"/>
+                              <Component id="txt_Direccion_DOCENTE" min="-2" pref="177" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -100,7 +100,7 @@
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="txtnacimiento" min="-2" pref="192" max="-2" attributes="0"/>
+                          <Component id="txt_Nacimiento_DOCENTE" min="-2" pref="192" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
@@ -110,8 +110,8 @@
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtcargo" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="txtexperiencia" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="txt_Cargo_DOCENTE" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="txt_Experiencia_DOCENTE" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -121,8 +121,8 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtpago" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
-                              <Component id="txtingreso" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="txt_Pago_DOCENTE" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
+                              <Component id="txt_Ingreso_DOCENTE" alignment="0" min="-2" pref="192" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -138,11 +138,11 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtdni" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Codigo_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtdocente" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Docente_DOCENTE" min="-2" max="-2" attributes="0"/>
                               <Group type="102" attributes="0">
                                   <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
                                   <Component id="jLabel3" min="-2" pref="14" max="-2" attributes="0"/>
@@ -150,48 +150,48 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtdireccion" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Direccion_DOCENTE" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txttelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Telefono_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtestado" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Estado_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtespecialidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Especialidad_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtcargo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Cargo_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtexperiencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Experiencia_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtnacimiento" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Nacimiento_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="txtpago" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Pago_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtingreso" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_Ingreso_DOCENTE" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -210,9 +210,9 @@
             <Property name="text" type="java.lang.String" value="DNI :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtdni">
+        <Component class="javax.swing.JTextField" name="txt_Codigo_DOCENTE">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdniActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Codigo_DOCENTEActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
@@ -226,7 +226,10 @@
             <Property name="text" type="java.lang.String" value="DOCENTE :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtdocente">
+        <Component class="javax.swing.JTextField" name="txt_Docente_DOCENTE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
@@ -236,17 +239,17 @@
             <Property name="text" type="java.lang.String" value="DIRECCION :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtdireccion">
+        <Component class="javax.swing.JTextField" name="txt_Direccion_DOCENTE">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdireccionActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Direccion_DOCENTEActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JTextField" name="txttelefono">
+        <Component class="javax.swing.JTextField" name="txt_Telefono_DOCENTE">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttelefonoActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Telefono_DOCENTEActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="25"/>
@@ -268,7 +271,7 @@
             <Property name="text" type="java.lang.String" value="ESTADO CIVIL :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="txtestado">
+        <Component class="javax.swing.JComboBox" name="txt_Estado_DOCENTE">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="3">
@@ -279,13 +282,14 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtestadoActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_Estado_DOCENTEActionPerformed"/>
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
-        <Component class="javax.swing.JComboBox" name="txtespecialidad">
+        <Component class="javax.swing.JComboBox" name="txt_Especialidad_DOCENTE">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="2">
@@ -296,6 +300,7 @@
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
@@ -314,9 +319,15 @@
             <Property name="text" type="java.lang.String" value="CARGO :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtcargo">
+        <Component class="javax.swing.JTextField" name="txt_Cargo_DOCENTE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtexperiencia">
+        <Component class="javax.swing.JTextField" name="txt_Experiencia_DOCENTE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
@@ -334,9 +345,15 @@
             <Property name="text" type="java.lang.String" value="F/NACIMIENTO :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtnacimiento">
+        <Component class="javax.swing.JTextField" name="txt_Nacimiento_DOCENTE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtpago">
+        <Component class="javax.swing.JTextField" name="txt_Pago_DOCENTE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
@@ -346,7 +363,10 @@
             <Property name="text" type="java.lang.String" value="PAGO :"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtingreso">
+        <Component class="javax.swing.JTextField" name="txt_Ingreso_DOCENTE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel12">
           <Properties>
@@ -371,10 +391,13 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtobservacion">
+    <Component class="javax.swing.JTextField" name="txt_Observacion_DOCENTE">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="120" y="378" width="547" height="-1"/>
@@ -394,7 +417,10 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JTextField" name="consultar">
+    <Component class="javax.swing.JTextField" name="txt_Consultar_DOCENTE">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="196" y="405" width="231" height="-1"/>
@@ -413,7 +439,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTable" name="jtblDatos">
+        <Component class="javax.swing.JTable" name="jtbl_Datos_DOCENTE">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="4">
@@ -427,7 +453,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="jlbl_foto">
+    <Component class="javax.swing.JLabel" name="jlbl_foto_DOCENTE">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -435,29 +461,38 @@
           </Border>
         </Property>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="690" y="180" width="136" height="146"/>
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_Cargar">
+    <Component class="javax.swing.JButton" name="btn_Cargar_DOCENTE">
       <Properties>
         <Property name="text" type="java.lang.String" value="Elegir Foto"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="700" y="330" width="118" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_Buscar">
+    <Component class="javax.swing.JButton" name="btn_Buscar_DOCENTE">
       <Properties>
         <Property name="text" type="java.lang.String" value="Buscar"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="449" y="401" width="104" height="52"/>
+          <AbsoluteConstraints x="450" y="410" width="104" height="52"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -479,50 +514,68 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="btn_Nuevo">
+        <Component class="javax.swing.JButton" name="btn_Nuevo_DOCENTE">
           <Properties>
             <Property name="text" type="java.lang.String" value="Nuevo"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="20" y="10" width="95" height="47"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_Registrar">
+        <Component class="javax.swing.JButton" name="btn_Registrar_DOCENTE">
           <Properties>
             <Property name="text" type="java.lang.String" value="Registrar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_Registrar_DOCENTEActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="10" width="95" height="47"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_Modificar">
+        <Component class="javax.swing.JButton" name="btn_Modificar_DOCENTE">
           <Properties>
             <Property name="text" type="java.lang.String" value="Modificar"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="240" y="10" width="95" height="47"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_Eliminar">
+        <Component class="javax.swing.JButton" name="btn_Eliminar_DOCENTE">
           <Properties>
             <Property name="text" type="java.lang.String" value="Eliminar"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="350" y="10" width="95" height="47"/>
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_Salir">
+        <Component class="javax.swing.JButton" name="btn_Salir_DOCENTE">
           <Properties>
             <Property name="text" type="java.lang.String" value="Salir"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="480" y="10" width="95" height="47"/>

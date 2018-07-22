@@ -28,8 +28,8 @@ public class Consultar_Reportes_Observacion extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        txtid = new javax.swing.JTextField();
-        btn_Salir = new javax.swing.JButton();
+        txt_APRO_DESDA = new javax.swing.JTextField();
+        btn_Salir_APRO = new javax.swing.JButton();
         btn_Imprimir = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -37,15 +37,15 @@ public class Consultar_Reportes_Observacion extends javax.swing.JInternalFrame {
         jLabel1.setText("BUSCAR  APROBADO / DESAPROBADO");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 249, -1));
 
-        txtid.addActionListener(new java.awt.event.ActionListener() {
+        txt_APRO_DESDA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtidActionPerformed(evt);
+                txt_APRO_DESDAActionPerformed(evt);
             }
         });
-        getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 290, -1));
+        getContentPane().add(txt_APRO_DESDA, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 290, -1));
 
-        btn_Salir.setText("Salir");
-        getContentPane().add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 140, 80, 40));
+        btn_Salir_APRO.setText("Salir");
+        getContentPane().add(btn_Salir_APRO, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 140, 80, 40));
 
         btn_Imprimir.setText("Imprimir");
         getContentPane().add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 80, 40));
@@ -53,15 +53,15 @@ public class Consultar_Reportes_Observacion extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidActionPerformed
+    private void txt_APRO_DESDAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_APRO_DESDAActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtidActionPerformed
+    }//GEN-LAST:event_txt_APRO_DESDAActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir;
+    public javax.swing.JButton btn_Salir_APRO;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txtid;
+    public javax.swing.JTextField txt_APRO_DESDA;
     // End of variables declaration//GEN-END:variables
 }

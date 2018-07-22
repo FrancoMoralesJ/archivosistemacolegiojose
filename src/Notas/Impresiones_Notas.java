@@ -28,9 +28,9 @@ public class Impresiones_Notas extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        txtid = new javax.swing.JTextField();
-        btn_Salir = new javax.swing.JButton();
-        btn_Imprimir = new javax.swing.JButton();
+        txt_Alumno_Notas = new javax.swing.JTextField();
+        btn_Salir_Notas = new javax.swing.JButton();
+        btn_Imprimir_Notas = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -38,18 +38,18 @@ public class Impresiones_Notas extends javax.swing.JInternalFrame {
         jLabel1.setText("ALUMNO");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 54, 61, -1));
 
-        txtid.addActionListener(new java.awt.event.ActionListener() {
+        txt_Alumno_Notas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtidActionPerformed(evt);
+                txt_Alumno_NotasActionPerformed(evt);
             }
         });
-        getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 51, 252, -1));
+        getContentPane().add(txt_Alumno_Notas, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 51, 252, -1));
 
-        btn_Salir.setText("Salir");
-        getContentPane().add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 100, 50));
+        btn_Salir_Notas.setText("Salir");
+        getContentPane().add(btn_Salir_Notas, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 100, 50));
 
-        btn_Imprimir.setText("Imprimir");
-        getContentPane().add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 100, 50));
+        btn_Imprimir_Notas.setText("Imprimir");
+        getContentPane().add(btn_Imprimir_Notas, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 100, 50));
 
         jButton3.setText("jButton3");
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 50, -1));
@@ -57,16 +57,16 @@ public class Impresiones_Notas extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidActionPerformed
+    private void txt_Alumno_NotasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Alumno_NotasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtidActionPerformed
+    }//GEN-LAST:event_txt_Alumno_NotasActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
-    private javax.swing.JButton jButton3;
+    public javax.swing.JButton btn_Imprimir_Notas;
+    public javax.swing.JButton btn_Salir_Notas;
+    public javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
-    public static javax.swing.JTextField txtid;
+    public static javax.swing.JTextField txt_Alumno_Notas;
     // End of variables declaration//GEN-END:variables
 }

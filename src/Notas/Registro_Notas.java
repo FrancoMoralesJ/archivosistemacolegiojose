@@ -34,29 +34,29 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        txtpromedio = new javax.swing.JTextField();
-        txtnota3 = new javax.swing.JTextField();
-        txtnota1 = new javax.swing.JTextField();
-        txtcurso = new javax.swing.JTextField();
-        txtalumno = new javax.swing.JTextField();
-        txtcodigo = new javax.swing.JTextField();
+        txt_Promedio_NOTAS = new javax.swing.JTextField();
+        txt_nota3_NOTAS = new javax.swing.JTextField();
+        txt_nota1_NOTAS = new javax.swing.JTextField();
+        txt_Curso_NOTAS = new javax.swing.JTextField();
+        txt_Alumno_NOTAS = new javax.swing.JTextField();
+        txt_Codigo_NOTAS = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        txtdocente = new javax.swing.JTextField();
-        txtfecha = new javax.swing.JTextField();
-        txtsemestre = new javax.swing.JTextField();
-        txtnota2 = new javax.swing.JTextField();
-        txtnota4 = new javax.swing.JTextField();
-        txtobservacion = new javax.swing.JTextField();
+        txt_Docente_NOTAS = new javax.swing.JTextField();
+        txt_Fecha_NOTAS = new javax.swing.JTextField();
+        txt_Semestre_NOTAS = new javax.swing.JTextField();
+        txt_nota2_NOTAS = new javax.swing.JTextField();
+        txt_nota4_NOTAS = new javax.swing.JTextField();
+        txt_Observacion_NOTAS = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
-        btn_Registrar = new javax.swing.JButton();
-        bnt_Imprimir = new javax.swing.JButton();
-        btn_Nuevo = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
+        btn_Registrar_NOTAS = new javax.swing.JButton();
+        bnt_Imprimir_NOTAS = new javax.swing.JButton();
+        btn_Nuevo_NOTAS = new javax.swing.JButton();
+        btn_Salir_NOTAS = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -94,46 +94,46 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
         jLabel17.setText("PROMEDIO");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 222, -1, -1));
 
-        txtpromedio.setEditable(false);
-        txtpromedio.addActionListener(new java.awt.event.ActionListener() {
+        txt_Promedio_NOTAS.setEditable(false);
+        txt_Promedio_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtpromedioActionPerformed(evt);
+                txt_Promedio_NOTASActionPerformed(evt);
             }
         });
-        getContentPane().add(txtpromedio, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 222, 258, -1));
+        getContentPane().add(txt_Promedio_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 222, 258, -1));
 
-        txtnota3.addActionListener(new java.awt.event.ActionListener() {
+        txt_nota3_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnota3ActionPerformed(evt);
+                txt_nota3_NOTASActionPerformed(evt);
             }
         });
-        txtnota3.addKeyListener(new java.awt.event.KeyAdapter() {
+        txt_nota3_NOTAS.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txtnota3KeyTyped(evt);
+                txt_nota3_NOTASKeyTyped(evt);
             }
         });
-        getContentPane().add(txtnota3, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 191, 258, -1));
+        getContentPane().add(txt_nota3_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 191, 258, -1));
 
-        txtnota1.addActionListener(new java.awt.event.ActionListener() {
+        txt_nota1_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnota1ActionPerformed(evt);
+                txt_nota1_NOTASActionPerformed(evt);
             }
         });
-        txtnota1.addKeyListener(new java.awt.event.KeyAdapter() {
+        txt_nota1_NOTAS.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txtnota1KeyTyped(evt);
+                txt_nota1_NOTASKeyTyped(evt);
             }
         });
-        getContentPane().add(txtnota1, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 160, 215, -1));
+        getContentPane().add(txt_nota1_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 160, 215, -1));
 
-        txtcurso.setEditable(false);
-        getContentPane().add(txtcurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 134, 215, -1));
+        txt_Curso_NOTAS.setEditable(false);
+        getContentPane().add(txt_Curso_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 134, 215, -1));
 
-        txtalumno.setEditable(false);
-        getContentPane().add(txtalumno, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 106, 215, -1));
+        txt_Alumno_NOTAS.setEditable(false);
+        getContentPane().add(txt_Alumno_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 106, 215, -1));
 
-        txtcodigo.setEditable(false);
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 73, 258, -1));
+        txt_Codigo_NOTAS.setEditable(false);
+        getContentPane().add(txt_Codigo_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 73, 258, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel9.setText("DOCENTE");
@@ -159,58 +159,58 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
         jLabel18.setText("OBSERVACION");
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(475, 222, -1, -1));
 
-        txtdocente.setEditable(false);
-        getContentPane().add(txtdocente, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 73, 267, -1));
-        getContentPane().add(txtfecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 106, 267, -1));
+        txt_Docente_NOTAS.setEditable(false);
+        getContentPane().add(txt_Docente_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 73, 267, -1));
+        getContentPane().add(txt_Fecha_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 106, 267, -1));
 
-        txtsemestre.setEditable(false);
-        getContentPane().add(txtsemestre, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 134, 267, -1));
+        txt_Semestre_NOTAS.setEditable(false);
+        getContentPane().add(txt_Semestre_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 134, 267, -1));
 
-        txtnota2.addActionListener(new java.awt.event.ActionListener() {
+        txt_nota2_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnota2ActionPerformed(evt);
+                txt_nota2_NOTASActionPerformed(evt);
             }
         });
-        txtnota2.addKeyListener(new java.awt.event.KeyAdapter() {
+        txt_nota2_NOTAS.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txtnota2KeyTyped(evt);
+                txt_nota2_NOTASKeyTyped(evt);
             }
         });
-        getContentPane().add(txtnota2, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 160, 267, -1));
+        getContentPane().add(txt_nota2_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 160, 267, -1));
 
-        txtnota4.addActionListener(new java.awt.event.ActionListener() {
+        txt_nota4_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnota4ActionPerformed(evt);
+                txt_nota4_NOTASActionPerformed(evt);
             }
         });
-        txtnota4.addKeyListener(new java.awt.event.KeyAdapter() {
+        txt_nota4_NOTAS.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                txtnota4KeyTyped(evt);
+                txt_nota4_NOTASKeyTyped(evt);
             }
         });
-        getContentPane().add(txtnota4, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 186, 225, -1));
+        getContentPane().add(txt_nota4_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 186, 225, -1));
 
-        txtobservacion.addActionListener(new java.awt.event.ActionListener() {
+        txt_Observacion_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtobservacionActionPerformed(evt);
+                txt_Observacion_NOTASActionPerformed(evt);
             }
         });
-        getContentPane().add(txtobservacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 222, 267, -1));
+        getContentPane().add(txt_Observacion_NOTAS, new org.netbeans.lib.awtextra.AbsoluteConstraints(591, 222, 267, -1));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        btn_Registrar.setText("Registrar");
-        btn_Registrar.addActionListener(new java.awt.event.ActionListener() {
+        btn_Registrar_NOTAS.setText("Registrar");
+        btn_Registrar_NOTAS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_RegistrarActionPerformed(evt);
+                btn_Registrar_NOTASActionPerformed(evt);
             }
         });
 
-        bnt_Imprimir.setText("Imprimir");
+        bnt_Imprimir_NOTAS.setText("Imprimir");
 
-        btn_Nuevo.setText("Nuevo");
+        btn_Nuevo_NOTAS.setText("Nuevo");
 
-        btn_Salir.setText("Salir");
+        btn_Salir_NOTAS.setText("Salir");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -218,13 +218,13 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(37, 37, 37)
-                .addComponent(btn_Nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Nuevo_NOTAS, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29)
-                .addComponent(btn_Registrar, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Registrar_NOTAS, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(bnt_Imprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(bnt_Imprimir_NOTAS, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Salir_NOTAS, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(20, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -232,10 +232,10 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_Registrar, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
-                    .addComponent(bnt_Imprimir, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
-                    .addComponent(btn_Nuevo, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
-                    .addComponent(btn_Salir, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE))
+                    .addComponent(btn_Registrar_NOTAS, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                    .addComponent(bnt_Imprimir_NOTAS, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                    .addComponent(btn_Nuevo_NOTAS, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                    .addComponent(btn_Salir_NOTAS, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE))
                 .addGap(23, 23, 23))
         );
 
@@ -256,15 +256,15 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtpromedioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtpromedioActionPerformed
+    private void txt_Promedio_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Promedio_NOTASActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtpromedioActionPerformed
+    }//GEN-LAST:event_txt_Promedio_NOTASActionPerformed
 
-    private void txtnota3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnota3ActionPerformed
+    private void txt_nota3_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nota3_NOTASActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota3ActionPerformed
+    }//GEN-LAST:event_txt_nota3_NOTASActionPerformed
 
-    private void txtnota3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnota3KeyTyped
+    private void txt_nota3_NOTASKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_nota3_NOTASKeyTyped
 
 //        if(!Character.isDigit(evt.getKeyChar()) && !Character.isISOControl(evt.getKeyChar()))
 //        {
@@ -276,14 +276,14 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
 //        }
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota3KeyTyped
+    }//GEN-LAST:event_txt_nota3_NOTASKeyTyped
 
-    private void txtnota1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnota1ActionPerformed
+    private void txt_nota1_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nota1_NOTASActionPerformed
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota1ActionPerformed
+    }//GEN-LAST:event_txt_nota1_NOTASActionPerformed
 
-    private void txtnota1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnota1KeyTyped
+    private void txt_nota1_NOTASKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_nota1_NOTASKeyTyped
 
 //        if(!Character.isDigit(evt.getKeyChar()) && !Character.isISOControl(evt.getKeyChar()))
 //        {
@@ -295,13 +295,13 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
 //        }
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota1KeyTyped
+    }//GEN-LAST:event_txt_nota1_NOTASKeyTyped
 
-    private void txtnota2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnota2ActionPerformed
+    private void txt_nota2_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nota2_NOTASActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota2ActionPerformed
+    }//GEN-LAST:event_txt_nota2_NOTASActionPerformed
 
-    private void txtnota2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnota2KeyTyped
+    private void txt_nota2_NOTASKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_nota2_NOTASKeyTyped
 
 //        if(!Character.isDigit(evt.getKeyChar()) && !Character.isISOControl(evt.getKeyChar()))
 //        {
@@ -313,13 +313,13 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
 //        }
 
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota2KeyTyped
+    }//GEN-LAST:event_txt_nota2_NOTASKeyTyped
 
-    private void txtnota4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnota4ActionPerformed
+    private void txt_nota4_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nota4_NOTASActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota4ActionPerformed
+    }//GEN-LAST:event_txt_nota4_NOTASActionPerformed
 
-    private void txtnota4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnota4KeyTyped
+    private void txt_nota4_NOTASKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_nota4_NOTASKeyTyped
 
         if(!Character.isDigit(evt.getKeyChar()) && !Character.isISOControl(evt.getKeyChar()))
         {
@@ -330,26 +330,26 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
 
         }
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnota4KeyTyped
+    }//GEN-LAST:event_txt_nota4_NOTASKeyTyped
 
-    private void txtobservacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtobservacionActionPerformed
+    private void txt_Observacion_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Observacion_NOTASActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtobservacionActionPerformed
+    }//GEN-LAST:event_txt_Observacion_NOTASActionPerformed
 
-    private void btn_RegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_RegistrarActionPerformed
+    private void btn_Registrar_NOTASActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Registrar_NOTASActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn_RegistrarActionPerformed
+    }//GEN-LAST:event_btn_Registrar_NOTASActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton bnt_Imprimir;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
+    public javax.swing.JButton bnt_Imprimir_NOTAS;
+    public javax.swing.JButton btn_Nuevo_NOTAS;
+    public javax.swing.JButton btn_Registrar_NOTAS;
+    public javax.swing.JButton btn_Salir_NOTAS;
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton3;
+    public javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -364,17 +364,17 @@ public class Registro_Notas extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    public static javax.swing.JTextField txtalumno;
-    private javax.swing.JTextField txtcodigo;
-    public static javax.swing.JTextField txtcurso;
-    public static javax.swing.JTextField txtdocente;
-    private javax.swing.JTextField txtfecha;
-    private javax.swing.JTextField txtnota1;
-    private javax.swing.JTextField txtnota2;
-    private javax.swing.JTextField txtnota3;
-    private javax.swing.JTextField txtnota4;
-    private javax.swing.JTextField txtobservacion;
-    private javax.swing.JTextField txtpromedio;
-    public static javax.swing.JTextField txtsemestre;
+    public static javax.swing.JTextField txt_Alumno_NOTAS;
+    public javax.swing.JTextField txt_Codigo_NOTAS;
+    public static javax.swing.JTextField txt_Curso_NOTAS;
+    public static javax.swing.JTextField txt_Docente_NOTAS;
+    public javax.swing.JTextField txt_Fecha_NOTAS;
+    public javax.swing.JTextField txt_Observacion_NOTAS;
+    public javax.swing.JTextField txt_Promedio_NOTAS;
+    public static javax.swing.JTextField txt_Semestre_NOTAS;
+    public javax.swing.JTextField txt_nota1_NOTAS;
+    public javax.swing.JTextField txt_nota2_NOTAS;
+    public javax.swing.JTextField txt_nota3_NOTAS;
+    public javax.swing.JTextField txt_nota4_NOTAS;
     // End of variables declaration//GEN-END:variables
 }

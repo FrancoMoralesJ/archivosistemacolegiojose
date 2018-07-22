@@ -30,20 +30,20 @@ public class Registro_Fichas extends javax.swing.JInternalFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        txtconsultar = new javax.swing.JTextField();
-        txtalumno = new javax.swing.JTextField();
-        txtcodigo = new javax.swing.JTextField();
+        txt_Consultar_MATRI = new javax.swing.JTextField();
+        txt_Alumno_MATRI = new javax.swing.JTextField();
+        txt_Codigo_MATRI = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        btn_Buscar = new javax.swing.JButton();
+        btn_Buscar_MATRI = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        btn_Salir = new javax.swing.JButton();
-        btn_Eliminar = new javax.swing.JButton();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Modificar = new javax.swing.JButton();
+        btn_Salir_MATRI = new javax.swing.JButton();
+        btn_Eliminar_MATRI = new javax.swing.JButton();
+        btn_Registrar_MATRI = new javax.swing.JButton();
+        btn_Modificar_MATRI = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -58,11 +58,11 @@ public class Registro_Fichas extends javax.swing.JInternalFrame {
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel11.setText("BUSCAR ALUMNO");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
-        getContentPane().add(txtconsultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 343, -1));
-        getContentPane().add(txtalumno, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 190, -1));
+        getContentPane().add(txt_Consultar_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 190, 343, -1));
+        getContentPane().add(txt_Alumno_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 190, -1));
 
-        txtcodigo.setEditable(false);
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 231, -1));
+        txt_Codigo_MATRI.setEditable(false);
+        getContentPane().add(txt_Codigo_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 231, -1));
 
         jLabel7.setFont(new java.awt.Font("Traditional Arabic", 1, 24)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -78,22 +78,22 @@ public class Registro_Fichas extends javax.swing.JInternalFrame {
         jLabel10.setText("FECHA");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 110, -1, -1));
 
-        txtfecha.addActionListener(new java.awt.event.ActionListener() {
+        txt_Fecha_MATRI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtfechaActionPerformed(evt);
+                txt_Fecha_MATRIActionPerformed(evt);
             }
         });
-        getContentPane().add(txtfecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 110, 195, -1));
+        getContentPane().add(txt_Fecha_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 110, 195, -1));
 
-        txtsemestre.addActionListener(new java.awt.event.ActionListener() {
+        txt_Semestre_MATRI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtsemestreActionPerformed(evt);
+                txt_Semestre_MATRIActionPerformed(evt);
             }
         });
-        getContentPane().add(txtsemestre, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 157, -1));
+        getContentPane().add(txt_Semestre_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 157, -1));
 
-        btn_Buscar.setText("Buscar");
-        getContentPane().add(btn_Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(563, 173, 80, 50));
+        btn_Buscar_MATRI.setText("Buscar");
+        getContentPane().add(btn_Buscar_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(563, 173, 80, 50));
 
         jButton6.setText("muñeco");
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 140, 60, -1));
@@ -104,56 +104,56 @@ public class Registro_Fichas extends javax.swing.JInternalFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btn_Salir.setText("Salir");
-        btn_Salir.addActionListener(new java.awt.event.ActionListener() {
+        btn_Salir_MATRI.setText("Salir");
+        btn_Salir_MATRI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_SalirActionPerformed(evt);
+                btn_Salir_MATRIActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, 80, 50));
+        jPanel1.add(btn_Salir_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 30, 80, 50));
 
-        btn_Eliminar.setText("Eliminar");
-        jPanel1.add(btn_Eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 80, 50));
+        btn_Eliminar_MATRI.setText("Eliminar");
+        jPanel1.add(btn_Eliminar_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 80, 50));
 
-        btn_Registrar.setText("Registrar");
-        jPanel1.add(btn_Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 80, 50));
+        btn_Registrar_MATRI.setText("Registrar");
+        jPanel1.add(btn_Registrar_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 80, 50));
 
-        btn_Modificar.setText("Modificar");
-        btn_Modificar.addActionListener(new java.awt.event.ActionListener() {
+        btn_Modificar_MATRI.setText("Modificar");
+        btn_Modificar_MATRI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_ModificarActionPerformed(evt);
+                btn_Modificar_MATRIActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_Modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 80, 50));
+        jPanel1.add(btn_Modificar_MATRI, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 80, 50));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 520, 110));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtfechaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfechaActionPerformed
-        this.txtfecha.transferFocus();
-    }//GEN-LAST:event_txtfechaActionPerformed
+    private void txt_Fecha_MATRIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Fecha_MATRIActionPerformed
+        this.txt_Fecha_MATRI.transferFocus();
+    }//GEN-LAST:event_txt_Fecha_MATRIActionPerformed
 
-    private void txtsemestreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtsemestreActionPerformed
+    private void txt_Semestre_MATRIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Semestre_MATRIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtsemestreActionPerformed
+    }//GEN-LAST:event_txt_Semestre_MATRIActionPerformed
 
-    private void btn_SalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_SalirActionPerformed
+    private void btn_Salir_MATRIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Salir_MATRIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn_SalirActionPerformed
+    }//GEN-LAST:event_btn_Salir_MATRIActionPerformed
 
-    private void btn_ModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ModificarActionPerformed
+    private void btn_Modificar_MATRIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Modificar_MATRIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn_ModificarActionPerformed
+    }//GEN-LAST:event_btn_Modificar_MATRIActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Buscar;
-    private javax.swing.JButton btn_Eliminar;
-    private javax.swing.JButton btn_Modificar;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Buscar_MATRI;
+    public javax.swing.JButton btn_Eliminar_MATRI;
+    public javax.swing.JButton btn_Modificar_MATRI;
+    public javax.swing.JButton btn_Registrar_MATRI;
+    public javax.swing.JButton btn_Salir_MATRI;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JLabel jLabel10;
@@ -163,10 +163,10 @@ public class Registro_Fichas extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    public static javax.swing.JTextField txtalumno;
-    private javax.swing.JTextField txtcodigo;
-    public static javax.swing.JTextField txtconsultar;
-    public static final javax.swing.JTextField txtfecha = new javax.swing.JTextField();
-    public static final javax.swing.JTextField txtsemestre = new javax.swing.JTextField();
+    public static javax.swing.JTextField txt_Alumno_MATRI;
+    public javax.swing.JTextField txt_Codigo_MATRI;
+    public static javax.swing.JTextField txt_Consultar_MATRI;
+    public static final javax.swing.JTextField txt_Fecha_MATRI = new javax.swing.JTextField();
+    public static final javax.swing.JTextField txt_Semestre_MATRI = new javax.swing.JTextField();
     // End of variables declaration//GEN-END:variables
 }

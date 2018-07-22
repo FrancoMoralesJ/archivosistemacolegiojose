@@ -29,27 +29,27 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
 
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        txtcodigo = new javax.swing.JTextField();
+        txt_Codigo_CURxDO = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
-        txtcurso = new javax.swing.JTextField();
+        txt_Curso_CURxDO = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
-        txtdocente = new javax.swing.JTextField();
+        txt_Docente_CURxDO = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        txtespecialidad = new javax.swing.JTextField();
+        txt_Especialidad_CURxDO = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        txtsemestre = new javax.swing.JTextField();
+        txt_Semestre_CURxDO = new javax.swing.JTextField();
         jLabel14 = new javax.swing.JLabel();
-        txtfecha = new javax.swing.JTextField();
-        consultar = new javax.swing.JTextField();
+        txt_Fecha_CURxDO = new javax.swing.JTextField();
+        txt_Consultar_CURxDO = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Modificar = new javax.swing.JButton();
-        btn_Eliminar = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
-        btn_Nuevo = new javax.swing.JButton();
+        btn_Registrar_CURxDO = new javax.swing.JButton();
+        btn_Modificar_CURxDO = new javax.swing.JButton();
+        btn_Eliminar_CURxDO = new javax.swing.JButton();
+        btn_Salir_CURxDO = new javax.swing.JButton();
+        btn_Nuevo_CURxDO = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
-        btn_Buscar = new javax.swing.JButton();
+        btn_Buscar_CURxDO = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -63,33 +63,33 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel6.setText("Nª");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 80, -1, -1));
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 80, 259, -1));
+        getContentPane().add(txt_Codigo_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 80, 259, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel10.setText("CURSO");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 111, -1, -1));
-        getContentPane().add(txtcurso, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 111, 259, -1));
+        getContentPane().add(txt_Curso_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 111, 259, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel7.setText("DOCENTE");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 143, -1, -1));
-        getContentPane().add(txtdocente, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 143, 216, -1));
+        getContentPane().add(txt_Docente_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 143, 216, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel9.setText("ESPECIALIDAD");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(496, 80, -1, -1));
-        getContentPane().add(txtespecialidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 80, 254, -1));
+        getContentPane().add(txt_Especialidad_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 80, 254, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel12.setText("SEMESTRE");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(492, 111, -1, -1));
-        getContentPane().add(txtsemestre, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 111, 216, -1));
+        getContentPane().add(txt_Semestre_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 111, 216, -1));
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel14.setText("F/REGISTRO");
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(492, 140, -1, -1));
-        getContentPane().add(txtfecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(619, 142, 257, -1));
-        getContentPane().add(consultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 229, 389, -1));
+        getContentPane().add(txt_Fecha_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(619, 142, 257, -1));
+        getContentPane().add(txt_Consultar_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(215, 229, 389, -1));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("BUSCAR CURSO");
@@ -97,15 +97,15 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        btn_Registrar.setText("Registrar");
+        btn_Registrar_CURxDO.setText("Registrar");
 
-        btn_Modificar.setText("Modificar");
+        btn_Modificar_CURxDO.setText("Modificar");
 
-        btn_Eliminar.setText("Eliminar");
+        btn_Eliminar_CURxDO.setText("Eliminar");
 
-        btn_Salir.setText("Salir");
+        btn_Salir_CURxDO.setText("Salir");
 
-        btn_Nuevo.setText("Nuevo");
+        btn_Nuevo_CURxDO.setText("Nuevo");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -113,15 +113,15 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btn_Nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Nuevo_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
-                .addComponent(btn_Registrar, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Registrar_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_Modificar, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Modificar_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_Eliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Eliminar_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Salir_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(29, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -129,11 +129,11 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(25, 25, 25)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_Registrar, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_Modificar, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_Eliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_Nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_Registrar_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Modificar_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Eliminar_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Salir_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Nuevo_CURxDO, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
 
@@ -147,8 +147,8 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
         });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 110, -1, 30));
 
-        btn_Buscar.setText("Buscar");
-        getContentPane().add(btn_Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 210, 93, 51));
+        btn_Buscar_CURxDO.setText("Buscar");
+        getContentPane().add(btn_Buscar_CURxDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 210, 93, 51));
 
         jButton8.setText("muñeco");
         getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 140, 60, 20));
@@ -162,15 +162,14 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Buscar;
-    private javax.swing.JButton btn_Eliminar;
-    private javax.swing.JButton btn_Modificar;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
-    private javax.swing.JTextField consultar;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton8;
+    public javax.swing.JButton btn_Buscar_CURxDO;
+    public javax.swing.JButton btn_Eliminar_CURxDO;
+    public javax.swing.JButton btn_Modificar_CURxDO;
+    public javax.swing.JButton btn_Nuevo_CURxDO;
+    public javax.swing.JButton btn_Registrar_CURxDO;
+    public javax.swing.JButton btn_Salir_CURxDO;
+    public javax.swing.JButton jButton6;
+    public javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel14;
@@ -180,11 +179,12 @@ public class Registrar_Curso extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txtcodigo;
-    public static javax.swing.JTextField txtcurso;
-    public static javax.swing.JTextField txtdocente;
-    public static javax.swing.JTextField txtespecialidad;
-    private javax.swing.JTextField txtfecha;
-    public static javax.swing.JTextField txtsemestre;
+    public javax.swing.JTextField txt_Codigo_CURxDO;
+    public javax.swing.JTextField txt_Consultar_CURxDO;
+    public static javax.swing.JTextField txt_Curso_CURxDO;
+    public static javax.swing.JTextField txt_Docente_CURxDO;
+    public static javax.swing.JTextField txt_Especialidad_CURxDO;
+    public javax.swing.JTextField txt_Fecha_CURxDO;
+    public static javax.swing.JTextField txt_Semestre_CURxDO;
     // End of variables declaration//GEN-END:variables
 }

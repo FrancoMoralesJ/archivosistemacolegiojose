@@ -28,9 +28,9 @@ public class Concultar_Reportes_Cursos extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        btn_Imprimir = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
-        txt_Curso = new javax.swing.JTextField();
+        btn_Imprimir__CURSO = new javax.swing.JButton();
+        btn_Salir_CURSO = new javax.swing.JButton();
+        txt_Curso_CURSO = new javax.swing.JTextField();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -38,21 +38,21 @@ public class Concultar_Reportes_Cursos extends javax.swing.JInternalFrame {
         jLabel1.setText("Curso :");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
 
-        btn_Imprimir.setText("Imprimir");
-        getContentPane().add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 130, 50));
+        btn_Imprimir__CURSO.setText("Imprimir");
+        getContentPane().add(btn_Imprimir__CURSO, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 130, 50));
 
-        btn_Salir.setText("Salir");
-        getContentPane().add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 140, 52));
-        getContentPane().add(txt_Curso, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, 260, 30));
+        btn_Salir_CURSO.setText("Salir");
+        getContentPane().add(btn_Salir_CURSO, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 140, 52));
+        getContentPane().add(txt_Curso_CURSO, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, 260, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir__CURSO;
+    public javax.swing.JButton btn_Salir_CURSO;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txt_Curso;
+    public javax.swing.JTextField txt_Curso_CURSO;
     // End of variables declaration//GEN-END:variables
 }

@@ -71,7 +71,7 @@ public class RegistrarUsuario extends javax.swing.JInternalFrame {
         jPanel1.add(btb_subir_imagenUsu, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 280, 190, 40));
 
         btn_guardarUsu.setText("Guardar");
-        jPanel1.add(btn_guardarUsu, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, 70, 40));
+        jPanel1.add(btn_guardarUsu, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, 70, 40));
 
         btn_nuevoUsu.setText("Nuevo");
         jPanel1.add(btn_nuevoUsu, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, 70, 40));

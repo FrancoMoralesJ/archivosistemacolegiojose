@@ -46,16 +46,16 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        txt_padre = new javax.swing.JTextField();
-        txt_madre = new javax.swing.JTextField();
-        txt_telefono = new javax.swing.JTextField();
-        txt_celulares = new javax.swing.JTextField();
+        txt_Padre_A = new javax.swing.JTextField();
+        txt_Madre_A = new javax.swing.JTextField();
+        txt_Telefono_A = new javax.swing.JTextField();
+        txt_Correo_A = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
-        txt_DIRECION = new javax.swing.JTextField();
+        txt_DIRECION_A = new javax.swing.JTextField();
         jLabel22 = new javax.swing.JLabel();
-        txt_celulares1 = new javax.swing.JTextField();
+        txt_DNIP_A = new javax.swing.JTextField();
         jLabel23 = new javax.swing.JLabel();
-        txt_celulares2 = new javax.swing.JTextField();
+        txt_DNIM_A = new javax.swing.JTextField();
         jPanel6 = new javax.swing.JPanel();
         txt_nomApo = new javax.swing.JTextField();
         txt_apellidosApo = new javax.swing.JTextField();
@@ -73,13 +73,13 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
         jLabel20 = new javax.swing.JLabel();
         txt_ApellidoP_A = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
-        jlbl_foto = new javax.swing.JLabel();
-        btn_ElegirFoto = new javax.swing.JButton();
-        txtobservacion = new javax.swing.JTextField();
-        btn_Nuevo = new javax.swing.JButton();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Modificar = new javax.swing.JButton();
-        btn_Eliminar = new javax.swing.JButton();
+        jlbl_Foto_A = new javax.swing.JLabel();
+        btn_ElegirFoto_A = new javax.swing.JButton();
+        txt_Observacion_A = new javax.swing.JTextField();
+        btn_Nuevo_A = new javax.swing.JButton();
+        btn_Registrar_A = new javax.swing.JButton();
+        btn_Modificar_A = new javax.swing.JButton();
+        btn_Eliminar_A = new javax.swing.JButton();
         jLabel21 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
         jLabel25 = new javax.swing.JLabel();
@@ -168,8 +168,8 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
                             .addComponent(jLabel9))
                         .addGap(35, 35, 35)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txt_madre, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE)
-                            .addComponent(txt_padre))
+                            .addComponent(txt_Madre_A, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE)
+                            .addComponent(txt_Padre_A))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -180,18 +180,18 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addComponent(jLabel13)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(txt_DIRECION))
+                                .addComponent(txt_DIRECION_A))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGap(18, 18, 18)
-                                .addComponent(txt_telefono, javax.swing.GroupLayout.PREFERRED_SIZE, 234, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txt_Telefono_A, javax.swing.GroupLayout.PREFERRED_SIZE, 234, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGap(29, 29, 29)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txt_celulares2, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txt_celulares, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txt_celulares1, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(txt_DNIM_A, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txt_Correo_A, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txt_DNIP_A, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(58, 58, 58))))
         );
         jPanel5Layout.setVerticalGroup(
@@ -203,9 +203,9 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
                         .addGap(10, 10, 10)
                         .addComponent(jLabel8))
                     .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(txt_padre, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txt_Padre_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel22)
-                        .addComponent(txt_celulares1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txt_DNIP_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(5, 5, 5)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
@@ -213,22 +213,22 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
                         .addComponent(jLabel9))
                     .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel23)
-                        .addComponent(txt_celulares2, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(txt_madre, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txt_DNIM_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txt_Madre_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(11, 11, 11)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel10)
-                            .addComponent(txt_telefono, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_Telefono_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel11)))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(txt_celulares, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txt_Correo_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13)
-                    .addComponent(txt_DIRECION, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_DIRECION_A, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -351,26 +351,26 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jlbl_foto.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
-        jPanel1.add(jlbl_foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, 179, 190));
+        jlbl_Foto_A.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
+        jPanel1.add(jlbl_Foto_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, 179, 190));
 
-        btn_ElegirFoto.setText("Elegir Foto");
-        jPanel1.add(btn_ElegirFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 179, 30));
+        btn_ElegirFoto_A.setText("Elegir Foto");
+        jPanel1.add(btn_ElegirFoto_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 179, 30));
 
-        txtobservacion.setEditable(false);
-        jPanel1.add(txtobservacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 20, 10));
+        txt_Observacion_A.setEditable(false);
+        jPanel1.add(txt_Observacion_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 20, 10));
 
-        btn_Nuevo.setText("Nuevo");
-        jPanel1.add(btn_Nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 120, 50));
+        btn_Nuevo_A.setText("Nuevo");
+        jPanel1.add(btn_Nuevo_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 120, 50));
 
-        btn_Registrar.setText("Registrar");
-        jPanel1.add(btn_Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, 120, 50));
+        btn_Registrar_A.setText("Registrar");
+        jPanel1.add(btn_Registrar_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, 120, 50));
 
-        btn_Modificar.setText("Modificar");
-        jPanel1.add(btn_Modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 120, 50));
+        btn_Modificar_A.setText("Modificar");
+        jPanel1.add(btn_Modificar_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 120, 50));
 
-        btn_Eliminar.setText("Eliminar");
-        jPanel1.add(btn_Eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 120, 50));
+        btn_Eliminar_A.setText("Eliminar");
+        jPanel1.add(btn_Eliminar_A, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 120, 50));
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel21.setText("Encargado:");
@@ -588,15 +588,15 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_Buscar;
-    private javax.swing.JButton btn_BuscarAlumnos;
-    private javax.swing.JButton btn_ElegirFoto;
-    private javax.swing.JButton btn_Eliminar;
-    private javax.swing.JButton btn_Modificar;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
+    public javax.swing.JButton btn_BuscarAlumnos;
+    public javax.swing.JButton btn_ElegirFoto_A;
+    public javax.swing.JButton btn_Eliminar_A;
+    public javax.swing.JButton btn_Modificar_A;
+    public javax.swing.JButton btn_Nuevo_A;
+    public javax.swing.JButton btn_Registrar_A;
     private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
+    public javax.swing.JComboBox<String> jComboBox2;
+    public javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -630,28 +630,28 @@ public class Registrar_Alumnos extends javax.swing.JInternalFrame {
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JLabel jlbl_foto;
+    public javax.swing.JLabel jlbl_Foto_A;
     public javax.swing.JTextField txt_Alumno_A;
     public static final javax.swing.JTextField txt_ApellidoM_A = new javax.swing.JTextField();
     public javax.swing.JTextField txt_ApellidoP_A;
     public javax.swing.JTextField txt_Celular_A;
     public javax.swing.JTextField txt_Codigo_A;
     public javax.swing.JTextField txt_Consulta_A;
-    private javax.swing.JTextField txt_DIRECION;
+    public javax.swing.JTextField txt_Correo_A;
+    private javax.swing.JTextField txt_DIRECION_A;
+    public javax.swing.JTextField txt_DNIM_A;
+    public javax.swing.JTextField txt_DNIP_A;
     public javax.swing.JTextField txt_DNI_A;
     public javax.swing.JTextField txt_Direccion_A;
     public com.toedter.calendar.JDateChooser txt_FechaNacimiento_A;
+    public javax.swing.JTextField txt_Madre_A;
+    public javax.swing.JTextField txt_Observacion_A;
+    public javax.swing.JTextField txt_Padre_A;
+    public javax.swing.JTextField txt_Telefono_A;
     private javax.swing.JTextField txt_apellidosApo;
     private javax.swing.JTextField txt_celularApo;
-    public javax.swing.JTextField txt_celulares;
-    public javax.swing.JTextField txt_celulares1;
-    public javax.swing.JTextField txt_celulares2;
     private javax.swing.JTextField txt_correoApo;
-    public javax.swing.JTextField txt_madre;
     private javax.swing.JTextField txt_nomApo;
-    public javax.swing.JTextField txt_padre;
-    public javax.swing.JTextField txt_telefono;
-    private javax.swing.JTextField txtobservacion;
     // End of variables declaration//GEN-END:variables
 
 }

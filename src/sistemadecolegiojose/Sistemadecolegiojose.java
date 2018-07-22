@@ -12,7 +12,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 
-//PUTOSSSSSSSSS 
+//PUTOSSSSSSSSS
+// es se funcionaaaaaaaaaaaaa
 
 public class Sistemadecolegiojose extends Conexiones.Conexion {
 

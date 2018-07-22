@@ -31,17 +31,17 @@ public class Registrar_Conceptos extends javax.swing.JInternalFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        txtcodigo = new javax.swing.JTextField();
-        txtdescripcion = new javax.swing.JTextField();
-        txtconsultar = new javax.swing.JTextField();
+        txt_Codigo_Pago = new javax.swing.JTextField();
+        txt_Descripcion_Pago = new javax.swing.JTextField();
+        txt_Consultar_Pago = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
-        btn_Buscar = new javax.swing.JButton();
+        btn_Buscar_Pago = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        btn_Nuevo = new javax.swing.JButton();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Modificar = new javax.swing.JButton();
-        btn_Eliminar = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
+        btn_Nuevo_Pago = new javax.swing.JButton();
+        btn_Registrar_Pago = new javax.swing.JButton();
+        btn_Modificar_Pago = new javax.swing.JButton();
+        btn_Eliminar_Pago = new javax.swing.JButton();
+        btn_Salir_Pago = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -63,69 +63,69 @@ public class Registrar_Conceptos extends javax.swing.JInternalFrame {
         jLabel11.setText("BUSCAR DESCRIPCION");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, -1, -1));
 
-        txtcodigo.setEditable(false);
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 60, 231, -1));
-        getContentPane().add(txtdescripcion, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 90, 231, -1));
-        getContentPane().add(txtconsultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 150, 303, -1));
+        txt_Codigo_Pago.setEditable(false);
+        getContentPane().add(txt_Codigo_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 60, 231, -1));
+        getContentPane().add(txt_Descripcion_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 90, 231, -1));
+        getContentPane().add(txt_Consultar_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 150, 303, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel10.setText("COSTO");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 90, -1, -1));
 
-        txtcosto.addActionListener(new java.awt.event.ActionListener() {
+        txt_Costo_Pago.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtcostoActionPerformed(evt);
+                txt_Costo_PagoActionPerformed(evt);
             }
         });
-        getContentPane().add(txtcosto, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 90, 157, -1));
+        getContentPane().add(txt_Costo_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 90, 157, -1));
 
-        btn_Buscar.setText("Buscar");
-        getContentPane().add(btn_Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 130, 100, 40));
+        btn_Buscar_Pago.setText("Buscar");
+        getContentPane().add(btn_Buscar_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 130, 100, 40));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btn_Nuevo.setText("Nuevo");
-        jPanel1.add(btn_Nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 108, 54));
+        btn_Nuevo_Pago.setText("Nuevo");
+        jPanel1.add(btn_Nuevo_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 108, 54));
 
-        btn_Registrar.setText("Registrar");
-        jPanel1.add(btn_Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 20, 108, 54));
+        btn_Registrar_Pago.setText("Registrar");
+        jPanel1.add(btn_Registrar_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 20, 108, 54));
 
-        btn_Modificar.setText("Modificar");
-        jPanel1.add(btn_Modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 20, 108, 54));
+        btn_Modificar_Pago.setText("Modificar");
+        jPanel1.add(btn_Modificar_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(272, 20, 108, 54));
 
-        btn_Eliminar.setText("Eliminar");
-        jPanel1.add(btn_Eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(398, 20, 108, 54));
+        btn_Eliminar_Pago.setText("Eliminar");
+        jPanel1.add(btn_Eliminar_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(398, 20, 108, 54));
 
-        btn_Salir.setText("Salir");
-        jPanel1.add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(516, 20, 108, 54));
+        btn_Salir_Pago.setText("Salir");
+        jPanel1.add(btn_Salir_Pago, new org.netbeans.lib.awtextra.AbsoluteConstraints(516, 20, 108, 54));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, 660, 90));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtcostoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtcostoActionPerformed
-        this.txtcosto.transferFocus();
-    }//GEN-LAST:event_txtcostoActionPerformed
+    private void txt_Costo_PagoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Costo_PagoActionPerformed
+        this.txt_Costo_Pago.transferFocus();
+    }//GEN-LAST:event_txt_Costo_PagoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Buscar;
-    private javax.swing.JButton btn_Eliminar;
-    private javax.swing.JButton btn_Modificar;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Buscar_Pago;
+    public javax.swing.JButton btn_Eliminar_Pago;
+    public javax.swing.JButton btn_Modificar_Pago;
+    public javax.swing.JButton btn_Nuevo_Pago;
+    public javax.swing.JButton btn_Registrar_Pago;
+    public javax.swing.JButton btn_Salir_Pago;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txtcodigo;
-    public static javax.swing.JTextField txtconsultar;
-    public static final javax.swing.JTextField txtcosto = new javax.swing.JTextField();
-    public static javax.swing.JTextField txtdescripcion;
+    public javax.swing.JTextField txt_Codigo_Pago;
+    public static javax.swing.JTextField txt_Consultar_Pago;
+    public static final javax.swing.JTextField txt_Costo_Pago = new javax.swing.JTextField();
+    public static javax.swing.JTextField txt_Descripcion_Pago;
     // End of variables declaration//GEN-END:variables
 }

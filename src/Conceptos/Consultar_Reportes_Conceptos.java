@@ -28,40 +28,49 @@ public class Consultar_Reportes_Conceptos extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        txtid = new javax.swing.JTextField();
-        btn_Salir = new javax.swing.JButton();
-        btn_Imprimir = new javax.swing.JButton();
+        txt_Cocepto_Concep = new javax.swing.JTextField();
+        btn_Salir_Concep = new javax.swing.JButton();
+        btn_Imprimir_Concep = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("CONCEPTO");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 26, -1, -1));
 
-        txtid.addActionListener(new java.awt.event.ActionListener() {
+        txt_Cocepto_Concep.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtidActionPerformed(evt);
+                txt_Cocepto_ConcepActionPerformed(evt);
             }
         });
-        getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(101, 23, 283, -1));
+        getContentPane().add(txt_Cocepto_Concep, new org.netbeans.lib.awtextra.AbsoluteConstraints(101, 23, 283, -1));
 
-        btn_Salir.setText("Salir");
-        getContentPane().add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 80, 40));
+        btn_Salir_Concep.setText("Salir");
+        btn_Salir_Concep.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_Salir_ConcepActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_Salir_Concep, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 100, 80, 40));
 
-        btn_Imprimir.setText("Imprimir");
-        getContentPane().add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 80, 40));
+        btn_Imprimir_Concep.setText("Imprimir");
+        getContentPane().add(btn_Imprimir_Concep, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 80, 40));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidActionPerformed
+    private void txt_Cocepto_ConcepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Cocepto_ConcepActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtidActionPerformed
+    }//GEN-LAST:event_txt_Cocepto_ConcepActionPerformed
+
+    private void btn_Salir_ConcepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Salir_ConcepActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_Salir_ConcepActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir_Concep;
+    public javax.swing.JButton btn_Salir_Concep;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txtid;
+    public javax.swing.JTextField txt_Cocepto_Concep;
     // End of variables declaration//GEN-END:variables
 }

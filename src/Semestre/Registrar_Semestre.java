@@ -27,29 +27,29 @@ public class Registrar_Semestre extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        consultar = new javax.swing.JTextField();
+        txt_Consultar_SE = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        txtcodigo = new javax.swing.JTextField();
-        txtdescripcion = new javax.swing.JTextField();
+        txt_Codigo_SE = new javax.swing.JTextField();
+        txt_Descripcion_SE = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
-        btn_Buscar = new javax.swing.JButton();
+        btn_Buscar_SE = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        btn_Nuevo = new javax.swing.JButton();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Modificar = new javax.swing.JButton();
-        btn_Eliminar = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
+        btn_Nuevo_SE = new javax.swing.JButton();
+        btn_Registrar_SE = new javax.swing.JButton();
+        btn_Modificar_SE = new javax.swing.JButton();
+        btn_Eliminar_SE = new javax.swing.JButton();
+        btn_Salir_SE = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        consultar.addActionListener(new java.awt.event.ActionListener() {
+        txt_Consultar_SE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                consultarActionPerformed(evt);
+                txt_Consultar_SEActionPerformed(evt);
             }
         });
-        getContentPane().add(consultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 203, 299, -1));
+        getContentPane().add(txt_Consultar_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 203, 299, -1));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("BUSCAR DESCRIPCION");
@@ -63,9 +63,9 @@ public class Registrar_Semestre extends javax.swing.JInternalFrame {
         jLabel8.setText("Nª");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 133, -1, -1));
 
-        txtcodigo.setEditable(false);
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 133, 299, -1));
-        getContentPane().add(txtdescripcion, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 159, 299, -1));
+        txt_Codigo_SE.setEditable(false);
+        getContentPane().add(txt_Codigo_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 133, 299, -1));
+        getContentPane().add(txt_Descripcion_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(236, 159, 299, -1));
 
         jLabel7.setFont(new java.awt.Font("Traditional Arabic", 1, 24)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -73,59 +73,59 @@ public class Registrar_Semestre extends javax.swing.JInternalFrame {
         jLabel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 55, 673, 34));
 
-        btn_Buscar.setText("Buscar");
-        getContentPane().add(btn_Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 140, 120, 50));
+        btn_Buscar_SE.setText("Buscar");
+        getContentPane().add(btn_Buscar_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 140, 120, 50));
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btn_Nuevo.setText("Nuevo");
-        jPanel3.add(btn_Nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 120, 50));
+        btn_Nuevo_SE.setText("Nuevo");
+        jPanel3.add(btn_Nuevo_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 120, 50));
 
-        btn_Registrar.setText("Registrar");
-        jPanel3.add(btn_Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 120, 50));
+        btn_Registrar_SE.setText("Registrar");
+        jPanel3.add(btn_Registrar_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 120, 50));
 
-        btn_Modificar.setText("Modificar");
-        jPanel3.add(btn_Modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, 120, 50));
+        btn_Modificar_SE.setText("Modificar");
+        jPanel3.add(btn_Modificar_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, 120, 50));
 
-        btn_Eliminar.setText("Eliminar");
-        btn_Eliminar.addActionListener(new java.awt.event.ActionListener() {
+        btn_Eliminar_SE.setText("Eliminar");
+        btn_Eliminar_SE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_EliminarActionPerformed(evt);
+                btn_Eliminar_SEActionPerformed(evt);
             }
         });
-        jPanel3.add(btn_Eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 20, 120, 50));
+        jPanel3.add(btn_Eliminar_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 20, 120, 50));
 
-        btn_Salir.setText("Salir");
-        jPanel3.add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 20, 120, 50));
+        btn_Salir_SE.setText("Salir");
+        jPanel3.add(btn_Salir_SE, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 20, 120, 50));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 690, 90));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btn_EliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_EliminarActionPerformed
+    private void btn_Eliminar_SEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Eliminar_SEActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn_EliminarActionPerformed
+    }//GEN-LAST:event_btn_Eliminar_SEActionPerformed
 
-    private void consultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consultarActionPerformed
+    private void txt_Consultar_SEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Consultar_SEActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_consultarActionPerformed
+    }//GEN-LAST:event_txt_Consultar_SEActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Buscar;
-    private javax.swing.JButton btn_Eliminar;
-    private javax.swing.JButton btn_Modificar;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
-    private javax.swing.JTextField consultar;
+    public javax.swing.JButton btn_Buscar_SE;
+    public javax.swing.JButton btn_Eliminar_SE;
+    public javax.swing.JButton btn_Modificar_SE;
+    public javax.swing.JButton btn_Nuevo_SE;
+    public javax.swing.JButton btn_Registrar_SE;
+    public javax.swing.JButton btn_Salir_SE;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JTextField txtcodigo;
-    public static javax.swing.JTextField txtdescripcion;
+    public javax.swing.JTextField txt_Codigo_SE;
+    public javax.swing.JTextField txt_Consultar_SE;
+    public static javax.swing.JTextField txt_Descripcion_SE;
     // End of variables declaration//GEN-END:variables
 }

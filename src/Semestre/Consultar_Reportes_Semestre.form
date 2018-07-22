@@ -23,14 +23,14 @@
               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="btn_Imprimir" min="-2" pref="88" max="-2" attributes="0"/>
+                      <Component id="btn_Imprimir_SE" min="-2" pref="88" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Component id="btn_Salir" min="-2" pref="83" max="-2" attributes="0"/>
+                      <Component id="btn_Salir_SE" min="-2" pref="83" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
-                      <Component id="txtid" min="-2" pref="128" max="-2" attributes="0"/>
+                      <Component id="txt_Semestre_SE" min="-2" pref="128" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="47" max="32767" attributes="0"/>
@@ -43,12 +43,12 @@
               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtid" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_Semestre_SE" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btn_Imprimir" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="btn_Salir" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="btn_Imprimir_SE" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="btn_Salir_SE" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="30" max="32767" attributes="0"/>
           </Group>
@@ -61,17 +61,26 @@
         <Property name="text" type="java.lang.String" value="Semestre:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_Imprimir">
+    <Component class="javax.swing.JButton" name="btn_Imprimir_SE">
       <Properties>
         <Property name="text" type="java.lang.String" value="Imprimir"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_Salir">
+    <Component class="javax.swing.JButton" name="btn_Salir_SE">
       <Properties>
         <Property name="text" type="java.lang.String" value="Salir"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtid">
+    <Component class="javax.swing.JTextField" name="txt_Semestre_SE">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>

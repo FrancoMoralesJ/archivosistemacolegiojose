@@ -30,27 +30,27 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        consultar = new javax.swing.JTextField();
+        txt_Consultar_INSTI = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        txtdireccion = new javax.swing.JTextField();
-        txtcodigo = new javax.swing.JTextField();
-        txtinstituto = new javax.swing.JTextField();
+        txt_Direccion_INSTI = new javax.swing.JTextField();
+        txt_Codigo_INSTI = new javax.swing.JTextField();
+        txt_Instituto_INSTI = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        txtfecha = new javax.swing.JTextField();
-        txtemail = new javax.swing.JTextField();
+        txt_Fecha_INSTI = new javax.swing.JTextField();
+        txt_email_INSTI = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        txtdocente = new javax.swing.JTextField();
+        txt_Docente_INSTI = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        txttelefono = new javax.swing.JTextField();
-        btn_Buscar = new javax.swing.JButton();
+        txt_Telefono_INSTI = new javax.swing.JTextField();
+        btn_Buscar_INSTI = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btn_Salir_INSTI = new javax.swing.JButton();
+        btn_Eliminar_INSTI = new javax.swing.JButton();
+        btn_Modificar_INSTI = new javax.swing.JButton();
+        btn_Nuevo_INSTI = new javax.swing.JButton();
+        btn_Registrar_INSTI = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -66,7 +66,7 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel7.setText("DIRECCION");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 100, -1));
-        getContentPane().add(consultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(221, 222, 389, -1));
+        getContentPane().add(txt_Consultar_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(221, 222, 389, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel8.setText("TELEFONO");
@@ -75,15 +75,15 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("BUSCAR INSTITUCION");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 222, -1, -1));
-        getContentPane().add(txtdireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 130, -1));
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, 130, -1));
-        getContentPane().add(txtinstituto, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 130, -1));
+        getContentPane().add(txt_Direccion_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 130, -1));
+        getContentPane().add(txt_Codigo_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, 130, -1));
+        getContentPane().add(txt_Instituto_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 130, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel12.setText("DIRECTOR");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, 100, -1));
-        getContentPane().add(txtfecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 320, -1));
-        getContentPane().add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 320, -1));
+        getContentPane().add(txt_Fecha_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 120, 320, -1));
+        getContentPane().add(txt_email_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, 320, -1));
 
         jLabel5.setFont(new java.awt.Font("Traditional Arabic", 1, 24)); // NOI18N
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -94,56 +94,56 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel13.setText("F/REGISTRO");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, 120, -1));
-        getContentPane().add(txtdocente, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 90, 270, -1));
+        getContentPane().add(txt_Docente_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 90, 270, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel9.setText("EMAIL");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, 70, -1));
 
-        txttelefono.addActionListener(new java.awt.event.ActionListener() {
+        txt_Telefono_INSTI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txttelefonoActionPerformed(evt);
+                txt_Telefono_INSTIActionPerformed(evt);
             }
         });
-        getContentPane().add(txttelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 130, -1));
+        getContentPane().add(txt_Telefono_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 130, -1));
 
-        btn_Buscar.setText("Buscar");
-        getContentPane().add(btn_Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 200, 130, 50));
+        btn_Buscar_INSTI.setText("Buscar");
+        getContentPane().add(btn_Buscar_INSTI, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 200, 130, 50));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jButton1.setText("Salir");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btn_Salir_INSTI.setText("Salir");
+        btn_Salir_INSTI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btn_Salir_INSTIActionPerformed(evt);
             }
         });
 
-        jButton5.setText("Eliminar");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btn_Eliminar_INSTI.setText("Eliminar");
+        btn_Eliminar_INSTI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btn_Eliminar_INSTIActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Modificar");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btn_Modificar_INSTI.setText("Modificar");
+        btn_Modificar_INSTI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btn_Modificar_INSTIActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Nuevo");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btn_Nuevo_INSTI.setText("Nuevo");
+        btn_Nuevo_INSTI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btn_Nuevo_INSTIActionPerformed(evt);
             }
         });
 
-        jButton4.setText("Registrar");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        btn_Registrar_INSTI.setText("Registrar");
+        btn_Registrar_INSTI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                btn_Registrar_INSTIActionPerformed(evt);
             }
         });
 
@@ -153,15 +153,15 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Nuevo_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Registrar_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Modificar_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Eliminar_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Salir_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26))
         );
         jPanel1Layout.setVerticalGroup(
@@ -169,11 +169,11 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(26, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_Salir_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Eliminar_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Modificar_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Nuevo_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Registrar_INSTI, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24))
         );
 
@@ -185,40 +185,39 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txttelefonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txttelefonoActionPerformed
+    private void txt_Telefono_INSTIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Telefono_INSTIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txttelefonoActionPerformed
+    }//GEN-LAST:event_txt_Telefono_INSTIActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btn_Salir_INSTIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Salir_INSTIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btn_Salir_INSTIActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btn_Nuevo_INSTIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Nuevo_INSTIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btn_Nuevo_INSTIActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btn_Modificar_INSTIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Modificar_INSTIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btn_Modificar_INSTIActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void btn_Registrar_INSTIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Registrar_INSTIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_btn_Registrar_INSTIActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btn_Eliminar_INSTIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Eliminar_INSTIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btn_Eliminar_INSTIActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Buscar;
-    private javax.swing.JTextField consultar;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    public javax.swing.JButton btn_Buscar_INSTI;
+    public javax.swing.JButton btn_Eliminar_INSTI;
+    public javax.swing.JButton btn_Modificar_INSTI;
+    public javax.swing.JButton btn_Nuevo_INSTI;
+    public javax.swing.JButton btn_Registrar_INSTI;
+    public javax.swing.JButton btn_Salir_INSTI;
+    public javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -229,12 +228,13 @@ public class Registrar_Centro_Estudios extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txtcodigo;
-    private javax.swing.JTextField txtdireccion;
-    public static javax.swing.JTextField txtdocente;
-    private javax.swing.JTextField txtemail;
-    private javax.swing.JTextField txtfecha;
-    public static javax.swing.JTextField txtinstituto;
-    private javax.swing.JTextField txttelefono;
+    public javax.swing.JTextField txt_Codigo_INSTI;
+    public javax.swing.JTextField txt_Consultar_INSTI;
+    public javax.swing.JTextField txt_Direccion_INSTI;
+    public static javax.swing.JTextField txt_Docente_INSTI;
+    public javax.swing.JTextField txt_Fecha_INSTI;
+    public static javax.swing.JTextField txt_Instituto_INSTI;
+    public javax.swing.JTextField txt_Telefono_INSTI;
+    public javax.swing.JTextField txt_email_INSTI;
     // End of variables declaration//GEN-END:variables
 }

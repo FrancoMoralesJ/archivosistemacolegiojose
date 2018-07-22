@@ -93,9 +93,9 @@ public class Consultar_Reportes_Institucion extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir;
+    public javax.swing.JButton btn_Salir;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txt_Institucion;
+    public javax.swing.JTextField txt_Institucion;
     // End of variables declaration//GEN-END:variables
 }

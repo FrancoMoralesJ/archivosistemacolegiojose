@@ -102,7 +102,7 @@ public class Menu extends javax.swing.JFrame {
         );
         EscritorioLayout.setVerticalGroup(
             EscritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 340, Short.MAX_VALUE)
+            .addGap(0, 336, Short.MAX_VALUE)
         );
 
         jPanel1.setBackground(new java.awt.Color(234, 226, 226));
@@ -152,20 +152,25 @@ public class Menu extends javax.swing.JFrame {
         jSeparator5.setOrientation(javax.swing.SwingConstants.VERTICAL);
         jPanel1.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 20, 30));
 
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/escuela.png"))); // NOI18N
         jMenu1.setText("Institución");
         jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/universidad.png"))); // NOI18N
         jMenu11.setText("Registrar Institución");
         jMenu1.add(jMenu11);
 
+        jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora.png"))); // NOI18N
         jMenu12.setText("Imprimir");
         jMenu1.add(jMenu12);
 
         jMenuBar1.add(jMenu1);
 
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/red.png"))); // NOI18N
         jMenu2.setText("Alumnos");
         jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/anadir-amigo.png"))); // NOI18N
         jMenu13.setText("Registrar Alumno");
         jMenu13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -174,117 +179,149 @@ public class Menu extends javax.swing.JFrame {
         });
         jMenu2.add(jMenu13);
 
+        jMenu14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora_1.png"))); // NOI18N
         jMenu14.setText("Imprimir");
         jMenu2.add(jMenu14);
 
         jMenuBar1.add(jMenu2);
 
+        jMenu16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/profesor.png"))); // NOI18N
         jMenu16.setText("Docentes");
         jMenu16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora.png"))); // NOI18N
         jMenu40.setText("Imprimir");
         jMenu16.add(jMenu40);
 
+        jMenu39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/estudiante.png"))); // NOI18N
         jMenu39.setText("Registrar Docente");
         jMenu16.add(jMenu39);
 
         jMenuBar1.add(jMenu16);
 
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/contrato.png"))); // NOI18N
         jMenu3.setText("Ficha/Matricula");
         jMenu3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/plan-de-estudios.png"))); // NOI18N
         jMenu15.setText("Registrar Ficha / Matricula");
         jMenu3.add(jMenu15);
 
+        jMenu17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora.png"))); // NOI18N
         jMenu17.setText("Imprimir");
         jMenu3.add(jMenu17);
 
         jMenuBar1.add(jMenu3);
 
+        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/calendario-mural.png"))); // NOI18N
         jMenu5.setText("Semestre");
         jMenu5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/material-de-oficina_1.png"))); // NOI18N
         jMenu18.setText("Registrar Semestre");
         jMenu5.add(jMenu18);
 
+        jMenu19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora_1.png"))); // NOI18N
         jMenu19.setText("Imprimir");
         jMenu5.add(jMenu19);
 
         jMenuBar1.add(jMenu5);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/estante-para-libros.png"))); // NOI18N
         jMenu4.setText("Cursos");
         jMenu4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/libros.png"))); // NOI18N
         jMenu20.setText("Registrar Cursos");
         jMenu4.add(jMenu20);
 
+        jMenu21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora_1.png"))); // NOI18N
         jMenu21.setText("Imprimir");
         jMenu4.add(jMenu21);
 
         jMenuBar1.add(jMenu4);
 
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/medalla.png"))); // NOI18N
         jMenu6.setText("Notas");
         jMenu6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/marca-de-verificacion.png"))); // NOI18N
         jMenu22.setText("Registro de Notas");
         jMenu6.add(jMenu22);
 
+        jMenu23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/gafas.png"))); // NOI18N
         jMenu23.setText("Ver Observación");
         jMenu6.add(jMenu23);
 
+        jMenu24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora_1.png"))); // NOI18N
         jMenu24.setText("Imprimir");
         jMenu6.add(jMenu24);
 
         jMenuBar1.add(jMenu6);
 
+        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/mapas-y-banderas.png"))); // NOI18N
         jMenu7.setText("Conceptos");
         jMenu7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/clip.png"))); // NOI18N
         jMenu25.setText("Registrar Conceptos");
         jMenu7.add(jMenu25);
 
+        jMenu26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora.png"))); // NOI18N
         jMenu26.setText("Imprimir");
         jMenu7.add(jMenu26);
 
         jMenuBar1.add(jMenu7);
 
+        jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/simbolo-de-dolar.png"))); // NOI18N
         jMenu8.setText("Pagos");
         jMenu8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/grafico-de-lineas.png"))); // NOI18N
         jMenu27.setText("Registrar Pagos");
         jMenu8.add(jMenu27);
 
+        jMenu28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/reloj-circular.png"))); // NOI18N
         jMenu28.setText("Ver Fechas");
         jMenu8.add(jMenu28);
 
+        jMenu29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/crecimiento.png"))); // NOI18N
         jMenu29.setText("Ver Pagos");
         jMenu8.add(jMenu29);
 
+        jMenu30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/impresora.png"))); // NOI18N
         jMenu30.setText("Imprimir");
         jMenu8.add(jMenu30);
 
         jMenuBar1.add(jMenu8);
 
+        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/protesta.png"))); // NOI18N
         jMenu9.setText("Reportes");
         jMenu9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
+        jMenu31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/acuerdo.png"))); // NOI18N
         jMenu31.setText("Reporte Institución");
         jMenu9.add(jMenu31);
 
+        jMenu32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/campana.png"))); // NOI18N
         jMenu32.setText("Reporte F/ Matricula");
         jMenu9.add(jMenu32);
 
+        jMenu33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/prueba.png"))); // NOI18N
         jMenu33.setText("Reporte Alumno");
         jMenu9.add(jMenu33);
 
+        jMenu34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/carnet-de-identidad.png"))); // NOI18N
         jMenu34.setText("Reporte Docente");
         jMenu9.add(jMenu34);
 
+        jMenu35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/contrato.png"))); // NOI18N
         jMenu35.setText("Reporte Cursos");
         jMenu9.add(jMenu35);
 
         jMenuBar1.add(jMenu9);
 
+        jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/chat.png"))); // NOI18N
         jMenu10.setText("Ayuda");
         jMenu10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jMenu10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -293,9 +330,11 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
+        jMenu36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/envio.png"))); // NOI18N
         jMenu36.setText("Acerca del Sistema");
         jMenu10.add(jMenu36);
 
+        jMenu37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/conexion.png"))); // NOI18N
         jMenu37.setText("Usuario");
         jMenu37.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -304,9 +343,11 @@ public class Menu extends javax.swing.JFrame {
         });
         jMenu10.add(jMenu37);
 
+        jMenu38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/servicio-al-cliente.png"))); // NOI18N
         jMenu38.setText("Cerrar");
         jMenu10.add(jMenu38);
 
+        jMenu41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconosdebarradeherramientas/Iconos/obrero.png"))); // NOI18N
         jMenu41.setText("Listar Usuario");
         jMenu41.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

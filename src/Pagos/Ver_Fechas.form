@@ -22,13 +22,13 @@
           <Group type="102" alignment="0" attributes="0">
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-              <Component id="txtid" pref="301" max="32767" attributes="0"/>
+              <Component id="txt_Porfecha" pref="301" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-              <Component id="btn_Imprimir" min="-2" pref="89" max="-2" attributes="0"/>
+              <Component id="btn_Imprimir_Porfecha" min="-2" pref="89" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-              <Component id="btn_Salir" min="-2" pref="89" max="-2" attributes="0"/>
+              <Component id="btn_Salir_Porfecha" min="-2" pref="89" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -39,12 +39,12 @@
               <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtid" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_Porfecha" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btn_Imprimir" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="btn_Salir" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btn_Imprimir_Porfecha" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btn_Salir_Porfecha" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="46" max="32767" attributes="0"/>
           </Group>
@@ -57,20 +57,29 @@
         <Property name="text" type="java.lang.String" value="POR FECHA"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtid">
+    <Component class="javax.swing.JTextField" name="txt_Porfecha">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtidActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_PorfechaActionPerformed"/>
       </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_Imprimir">
+    <Component class="javax.swing.JButton" name="btn_Imprimir_Porfecha">
       <Properties>
         <Property name="text" type="java.lang.String" value="Imprimir"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
-    <Component class="javax.swing.JButton" name="btn_Salir">
+    <Component class="javax.swing.JButton" name="btn_Salir_Porfecha">
       <Properties>
         <Property name="text" type="java.lang.String" value="Salir"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>

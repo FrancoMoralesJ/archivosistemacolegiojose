@@ -28,21 +28,21 @@ public class Ver_Fechas extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        txtid = new javax.swing.JTextField();
-        btn_Imprimir = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
+        txt_Porfecha = new javax.swing.JTextField();
+        btn_Imprimir_Porfecha = new javax.swing.JButton();
+        btn_Salir_Porfecha = new javax.swing.JButton();
 
         jLabel1.setText("POR FECHA");
 
-        txtid.addActionListener(new java.awt.event.ActionListener() {
+        txt_Porfecha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtidActionPerformed(evt);
+                txt_PorfechaActionPerformed(evt);
             }
         });
 
-        btn_Imprimir.setText("Imprimir");
+        btn_Imprimir_Porfecha.setText("Imprimir");
 
-        btn_Salir.setText("Salir");
+        btn_Salir_Porfecha.setText("Salir");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -51,12 +51,12 @@ public class Ver_Fechas extends javax.swing.JInternalFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jLabel1)
                 .addGap(36, 36, 36)
-                .addComponent(txtid, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE))
+                .addComponent(txt_Porfecha, javax.swing.GroupLayout.DEFAULT_SIZE, 301, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(61, 61, 61)
-                .addComponent(btn_Imprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Imprimir_Porfecha, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(59, 59, 59)
-                .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_Salir_Porfecha, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -65,26 +65,26 @@ public class Ver_Fechas extends javax.swing.JInternalFrame {
                 .addGap(22, 22, 22)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(txtid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_Porfecha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_Imprimir, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_Salir, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btn_Imprimir_Porfecha, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_Salir_Porfecha, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(46, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidActionPerformed
+    private void txt_PorfechaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PorfechaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtidActionPerformed
+    }//GEN-LAST:event_txt_PorfechaActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir_Porfecha;
+    public javax.swing.JButton btn_Salir_Porfecha;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField txtid;
+    public javax.swing.JTextField txt_Porfecha;
     // End of variables declaration//GEN-END:variables
 }

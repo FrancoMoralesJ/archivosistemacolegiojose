@@ -28,40 +28,40 @@ public class Impresiones_Pagos extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        txtid = new javax.swing.JTextField();
-        btn_Salir = new javax.swing.JButton();
-        btn_Imprimir = new javax.swing.JButton();
+        txt_Pago_Pagos = new javax.swing.JTextField();
+        btn_Salir_Pagos = new javax.swing.JButton();
+        btn_Imprimir_Pagos = new javax.swing.JButton();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("Nª PAGO");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 14, 61, -1));
 
-        txtid.addActionListener(new java.awt.event.ActionListener() {
+        txt_Pago_Pagos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtidActionPerformed(evt);
+                txt_Pago_PagosActionPerformed(evt);
             }
         });
-        getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 11, 307, -1));
+        getContentPane().add(txt_Pago_Pagos, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 11, 307, -1));
 
-        btn_Salir.setText("Salir");
-        getContentPane().add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 70, 90, 50));
+        btn_Salir_Pagos.setText("Salir");
+        getContentPane().add(btn_Salir_Pagos, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 70, 90, 50));
 
-        btn_Imprimir.setText("Imprimir");
-        getContentPane().add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 90, 50));
+        btn_Imprimir_Pagos.setText("Imprimir");
+        getContentPane().add(btn_Imprimir_Pagos, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 90, 50));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtidActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtidActionPerformed
+    private void txt_Pago_PagosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Pago_PagosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtidActionPerformed
+    }//GEN-LAST:event_txt_Pago_PagosActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Salir;
+    public javax.swing.JButton btn_Imprimir_Pagos;
+    public javax.swing.JButton btn_Salir_Pagos;
     private javax.swing.JLabel jLabel1;
-    public static javax.swing.JTextField txtid;
+    public static javax.swing.JTextField txt_Pago_Pagos;
     // End of variables declaration//GEN-END:variables
 }

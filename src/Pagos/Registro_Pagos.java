@@ -29,24 +29,24 @@ public class Registro_Pagos extends javax.swing.JInternalFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        txtalumno = new javax.swing.JTextField();
+        txt_Alumno_PENCION = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
-        txtconcepto = new javax.swing.JTextField();
+        txt_Concepto_PENCION = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         txtserie = new javax.swing.JTextField();
-        txtcodigo = new javax.swing.JTextField();
-        txtdocumento = new javax.swing.JTextField();
-        txtsemestre = new javax.swing.JTextField();
-        txtpago = new javax.swing.JTextField();
+        txt_Codigo_PENCION = new javax.swing.JTextField();
+        txt_Documento_PENCION = new javax.swing.JTextField();
+        txt_Semestre_PENCION = new javax.swing.JTextField();
+        txt_Pago_PENCION = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
-        btn_Nuevo = new javax.swing.JButton();
-        btn_Registrar = new javax.swing.JButton();
-        btn_Imprimir = new javax.swing.JButton();
-        btn_Salir = new javax.swing.JButton();
+        btn_Nuevo_PENCION = new javax.swing.JButton();
+        btn_Registrar_PENCION = new javax.swing.JButton();
+        btn_Imprimir_PENCION = new javax.swing.JButton();
+        btn_Salir_PENCION = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -63,15 +63,15 @@ public class Registro_Pagos extends javax.swing.JInternalFrame {
         jLabel5.setText("ALUMNO");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 195, -1, -1));
 
-        txtalumno.setEditable(false);
-        getContentPane().add(txtalumno, new org.netbeans.lib.awtextra.AbsoluteConstraints(122, 195, 214, -1));
+        txt_Alumno_PENCION.setEditable(false);
+        getContentPane().add(txt_Alumno_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(122, 195, 214, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel7.setText("CONCEPTO");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 233, -1, -1));
 
-        txtconcepto.setEditable(false);
-        getContentPane().add(txtconcepto, new org.netbeans.lib.awtextra.AbsoluteConstraints(122, 233, 214, -1));
+        txt_Concepto_PENCION.setEditable(false);
+        getContentPane().add(txt_Concepto_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(122, 233, 214, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel10.setText("Nª PAGO");
@@ -98,43 +98,43 @@ public class Registro_Pagos extends javax.swing.JInternalFrame {
         txtserie.setText("001-");
         getContentPane().add(txtserie, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 88, 51, -1));
 
-        txtcodigo.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txtcodigo, new org.netbeans.lib.awtextra.AbsoluteConstraints(539, 88, 162, -1));
+        txt_Codigo_PENCION.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        getContentPane().add(txt_Codigo_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(539, 88, 162, -1));
 
-        txtdocumento.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        txtdocumento.setText("DOCUMENTO DE BOLETA");
-        getContentPane().add(txtdocumento, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 111, 219, -1));
+        txt_Documento_PENCION.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        txt_Documento_PENCION.setText("DOCUMENTO DE BOLETA");
+        getContentPane().add(txt_Documento_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 111, 219, -1));
 
-        txtsemestre.setEditable(false);
-        txtsemestre.addActionListener(new java.awt.event.ActionListener() {
+        txt_Semestre_PENCION.setEditable(false);
+        txt_Semestre_PENCION.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtsemestreActionPerformed(evt);
+                txt_Semestre_PENCIONActionPerformed(evt);
             }
         });
-        getContentPane().add(txtsemestre, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 195, 219, -1));
+        getContentPane().add(txt_Semestre_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 195, 219, -1));
 
-        txtpago.setEditable(false);
-        getContentPane().add(txtpago, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 233, 181, -1));
+        txt_Pago_PENCION.setEditable(false);
+        getContentPane().add(txt_Pago_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 233, 181, -1));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        btn_Nuevo.setText("Nuevo");
-        jPanel1.add(btn_Nuevo, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 21, 110, 56));
+        btn_Nuevo_PENCION.setText("Nuevo");
+        jPanel1.add(btn_Nuevo_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 21, 110, 56));
 
-        btn_Registrar.setText("Registrar");
-        btn_Registrar.addActionListener(new java.awt.event.ActionListener() {
+        btn_Registrar_PENCION.setText("Registrar");
+        btn_Registrar_PENCION.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_RegistrarActionPerformed(evt);
+                btn_Registrar_PENCIONActionPerformed(evt);
             }
         });
-        jPanel1.add(btn_Registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(128, 21, 110, 56));
+        jPanel1.add(btn_Registrar_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(128, 21, 110, 56));
 
-        btn_Imprimir.setText("Imprimir");
-        jPanel1.add(btn_Imprimir, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 21, 110, 56));
+        btn_Imprimir_PENCION.setText("Imprimir");
+        jPanel1.add(btn_Imprimir_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(244, 21, 110, 56));
 
-        btn_Salir.setText("Salir");
-        jPanel1.add(btn_Salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 21, 110, 56));
+        btn_Salir_PENCION.setText("Salir");
+        jPanel1.add(btn_Salir_PENCION, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 21, 110, 56));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 310, 500, 100));
 
@@ -150,23 +150,23 @@ public class Registro_Pagos extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtsemestreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtsemestreActionPerformed
+    private void txt_Semestre_PENCIONActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_Semestre_PENCIONActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtsemestreActionPerformed
+    }//GEN-LAST:event_txt_Semestre_PENCIONActionPerformed
 
-    private void btn_RegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_RegistrarActionPerformed
+    private void btn_Registrar_PENCIONActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_Registrar_PENCIONActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btn_RegistrarActionPerformed
+    }//GEN-LAST:event_btn_Registrar_PENCIONActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btn_Imprimir;
-    private javax.swing.JButton btn_Nuevo;
-    private javax.swing.JButton btn_Registrar;
-    private javax.swing.JButton btn_Salir;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
+    public javax.swing.JButton btn_Imprimir_PENCION;
+    public javax.swing.JButton btn_Nuevo_PENCION;
+    public javax.swing.JButton btn_Registrar_PENCION;
+    public javax.swing.JButton btn_Salir_PENCION;
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -176,12 +176,12 @@ public class Registro_Pagos extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
-    public static javax.swing.JTextField txtalumno;
-    public static javax.swing.JTextField txtcodigo;
-    public static javax.swing.JTextField txtconcepto;
-    private javax.swing.JTextField txtdocumento;
-    public static javax.swing.JTextField txtpago;
-    public static javax.swing.JTextField txtsemestre;
-    private javax.swing.JTextField txtserie;
+    public static javax.swing.JTextField txt_Alumno_PENCION;
+    public static javax.swing.JTextField txt_Codigo_PENCION;
+    public static javax.swing.JTextField txt_Concepto_PENCION;
+    public javax.swing.JTextField txt_Documento_PENCION;
+    public static javax.swing.JTextField txt_Pago_PENCION;
+    public static javax.swing.JTextField txt_Semestre_PENCION;
+    public javax.swing.JTextField txtserie;
     // End of variables declaration//GEN-END:variables
 }
